@@ -18,11 +18,12 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                outfit: ['Poppins', 'sans-serif'],
+                outfit: ['Outfit', 'sans-serif'],
                 montserrat: ['Montserrat', 'sans-serif'],
             },
             backgroundColor: {
                 lightblue: '#009DFC',
+                hoverbtn: 'rgb(234 234 234)',
             },
             colors: {
                 blueviolet: '#0A0A4A',
