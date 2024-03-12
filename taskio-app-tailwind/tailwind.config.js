@@ -24,10 +24,14 @@ module.exports = {
             backgroundColor: {
                 lightblue: '#009DFC',
                 hoverbtn: 'rgb(234 234 234)',
+                lightgray: '#F9F9F9',
             },
             colors: {
                 blueviolet: '#0A0A4A',
-                lightgray: '#2F2F2F',
+                gray: '#909090',
+            },
+            borderColor: {
+                e7: '#E7E7E7',
             },
         },
     },
