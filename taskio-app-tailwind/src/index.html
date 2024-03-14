@@ -288,41 +288,48 @@
         </section>
 
         <section
-            class="w-full bg-lightgray pt-[96px] pb-[76px] border-t-[2px] border-[#E7E7E7]">
+            class="w-full bg-lightgray pt-[96px] pb-[76px] border-t-[2px] border-[#E7E7E7] md:pt-9 md:pb-[40px] md:px-[25px] sx:pt-5">
             <div
-                class="mx-auto max-w-[1185px] flex items-center justify-between gap-[100px]">
-                <h1 class="title">Our Features you can get</h1>
+                class="mx-auto max-w-[1185px] flex items-center justify-between gap-[100px] md:flex-col md:gap-[30px] md:text-center xs:text-left xs:gap-[16px]">
+                <h1 class="title xs:mr-auto">Our Features you can get</h1>
                 <p class="subtitle max-w-[485px]">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
                     more-or-less normal distribution of letters.
                 </p>
-                <div class="flex gap-[23px]">
-                    <button id="prev" class="active:scale-75 transition-all">
+                <div class="flex gap-[23px] sm:gap-[15px] xs:mr-auto">
+                    <button
+                        id="prev"
+                        disabled
+                        class="active:scale-75 transition-all">
                         <svg
                             width="91"
                             height="58"
                             viewBox="0 0 91 58"
                             fill="none"
+                            class="sm:w-[60px] sm:h-auto sx:w-[50px]"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle
                                 cx="29"
                                 cy="29"
                                 r="28"
-                                stroke="#D4D4D4"
+                                stroke="#0A0A4A"
                                 stroke-width="2" />
                             <path
                                 d="M23.9393 27.9393C23.3536 28.5251 23.3536 29.4749 23.9393 30.0607L33.4853 39.6066C34.0711 40.1924 35.0208 40.1924 35.6066 39.6066C36.1924 39.0208 36.1924 38.0711 35.6066 37.4853L27.1213 29L35.6066 20.5147C36.1924 19.9289 36.1924 18.9792 35.6066 18.3934C35.0208 17.8076 34.0711 17.8076 33.4853 18.3934L23.9393 27.9393ZM91 27.5L25 27.5L25 30.5L91 30.5L91 27.5Z"
-                                fill="#D4D4D4" />
+                                fill="#0A0A4A" />
                         </svg>
                     </button>
-                    <button id="next" class="active:scale-75 transition-all">
+                    <button
+                        id="next"
+                        class="active:scale-75 transition-all sm:w-[50px] sm:h-auto">
                         <svg
                             width="92"
                             height="58"
                             viewBox="0 0 92 58"
                             fill="none"
+                            class="sm:w-[60px] sm:h-auto sx:w-[50px]"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle
                                 cx="63"
@@ -338,11 +345,13 @@
                 </div>
             </div>
         </section>
-        <section class="bg-lightgray pb-[160px]">
-            <div id="slider" class="flex justify-center gap-8">
-                <div class="card card--cur">
+        <section class="bg-lightgray pb-[160px] md:px-[25px] md:pb-[100px]">
+            <ul
+                id="slider"
+                class="flex gap-8 overflow-x-scroll scroll-smooth max-w-[1200px] mx-auto">
+                <li class="card card--cur">
                     <div
-                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center">
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
                         <svg
                             width="32"
                             height="32"
@@ -367,17 +376,17 @@
                         </svg>
                     </div>
                     <h3
-                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px]">
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
                         With you everywhere
                     </h3>
                     <p
-                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px]">
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
                         Ehya lets you take control of your money, balance your
                         income and expenses, and understand.
                     </p>
                     <div class="flex justify-between items-center">
                         <p
-                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234]">
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
                             Learn More
                         </p>
                         <button>
@@ -391,10 +400,10 @@
                             </svg>
                         </button>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div
-                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center">
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
                         <svg
                             width="32"
                             height="32"
@@ -419,17 +428,17 @@
                         </svg>
                     </div>
                     <h3
-                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px]">
-                        Make do it yours
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
+                        With you everywhere
                     </h3>
                     <p
-                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px]">
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
                         Ehya lets you take control of your money, balance your
                         income and expenses, and understand.
                     </p>
                     <div class="flex justify-between items-center">
                         <p
-                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234]">
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
                             Learn More
                         </p>
                         <button>
@@ -443,10 +452,10 @@
                             </svg>
                         </button>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div
-                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center">
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
                         <svg
                             width="32"
                             height="32"
@@ -471,17 +480,17 @@
                         </svg>
                     </div>
                     <h3
-                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px]">
-                        Connect with your tools
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
+                        With you everywhere
                     </h3>
                     <p
-                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px]">
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
                         Ehya lets you take control of your money, balance your
                         income and expenses, and understand.
                     </p>
                     <div class="flex justify-between items-center">
                         <p
-                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234]">
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
                             Learn More
                         </p>
                         <button>
@@ -495,10 +504,10 @@
                             </svg>
                         </button>
                     </div>
-                </div>
-                <div class="card">
+                </li>
+                <li class="card">
                     <div
-                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center">
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
                         <svg
                             width="32"
                             height="32"
@@ -523,17 +532,17 @@
                         </svg>
                     </div>
                     <h3
-                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px]">
-                        Make your work easy
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
+                        With you everywhere
                     </h3>
                     <p
-                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px]">
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
                         Ehya lets you take control of your money, balance your
                         income and expenses, and understand.
                     </p>
                     <div class="flex justify-between items-center">
                         <p
-                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234]">
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
                             Learn More
                         </p>
                         <button>
@@ -547,8 +556,112 @@
                             </svg>
                         </button>
                     </div>
-                </div>
-            </div>
+                </li>
+                <li class="card">
+                    <div
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
+                        <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 32 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 22C3.45333 22 3 21.5467 3 21V11C3 10.4533 3.45333 10 4 10C4.54667 10 5 10.4533 5 11V21C5 21.5467 4.54667 22 4 22Z"
+                                fill="white" />
+                            <path
+                                d="M10 25.3337C9.45333 25.3337 9 24.8803 9 24.3337V7.66699C9 7.12033 9.45333 6.66699 10 6.66699C10.5467 6.66699 11 7.12033 11 7.66699V24.3337C11 24.8803 10.5467 25.3337 10 25.3337Z"
+                                fill="white" />
+                            <path
+                                d="M16 28.6663C15.4533 28.6663 15 28.213 15 27.6663V4.33301C15 3.78634 15.4533 3.33301 16 3.33301C16.5467 3.33301 17 3.78634 17 4.33301V27.6663C17 28.213 16.5467 28.6663 16 28.6663Z"
+                                fill="white" />
+                            <path
+                                d="M22 25.3337C21.4533 25.3337 21 24.8803 21 24.3337V7.66699C21 7.12033 21.4533 6.66699 22 6.66699C22.5467 6.66699 23 7.12033 23 7.66699V24.3337C23 24.8803 22.5467 25.3337 22 25.3337Z"
+                                fill="white" />
+                            <path
+                                d="M28 22C27.4533 22 27 21.5467 27 21V11C27 10.4533 27.4533 10 28 10C28.5467 10 29 10.4533 29 11V21C29 21.5467 28.5467 22 28 22Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <h3
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
+                        With you everywhere
+                    </h3>
+                    <p
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
+                        Ehya lets you take control of your money, balance your
+                        income and expenses, and understand.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <p
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
+                            Learn More
+                        </p>
+                        <button>
+                            <svg
+                                width="17"
+                                height="16"
+                                viewBox="0 0 17 16"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928931C9.95262 0.538407 9.31946 0.538407 8.92893 0.928931C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM8.74228e-08 9L16 9L16 7L-8.74228e-08 7L8.74228e-08 9Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+                <li class="card">
+                    <div
+                        class="w-[60px] h-[60px] bg-[#102437] rounded-full flex justify-center items-center xs:w-[46px] xs:h-[46px]">
+                        <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 32 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 22C3.45333 22 3 21.5467 3 21V11C3 10.4533 3.45333 10 4 10C4.54667 10 5 10.4533 5 11V21C5 21.5467 4.54667 22 4 22Z"
+                                fill="white" />
+                            <path
+                                d="M10 25.3337C9.45333 25.3337 9 24.8803 9 24.3337V7.66699C9 7.12033 9.45333 6.66699 10 6.66699C10.5467 6.66699 11 7.12033 11 7.66699V24.3337C11 24.8803 10.5467 25.3337 10 25.3337Z"
+                                fill="white" />
+                            <path
+                                d="M16 28.6663C15.4533 28.6663 15 28.213 15 27.6663V4.33301C15 3.78634 15.4533 3.33301 16 3.33301C16.5467 3.33301 17 3.78634 17 4.33301V27.6663C17 28.213 16.5467 28.6663 16 28.6663Z"
+                                fill="white" />
+                            <path
+                                d="M22 25.3337C21.4533 25.3337 21 24.8803 21 24.3337V7.66699C21 7.12033 21.4533 6.66699 22 6.66699C22.5467 6.66699 23 7.12033 23 7.66699V24.3337C23 24.8803 22.5467 25.3337 22 25.3337Z"
+                                fill="white" />
+                            <path
+                                d="M28 22C27.4533 22 27 21.5467 27 21V11C27 10.4533 27.4533 10 28 10C28.5467 10 29 10.4533 29 11V21C29 21.5467 28.5467 22 28 22Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <h3
+                        class="text-[22px] font-bold font-outfit leading-7 text-[#333333] mt-[60px] xs:text-[16px] xs:mt-[37px]">
+                        With you everywhere
+                    </h3>
+                    <p
+                        class="text-[18px] leading-[30px] font-normal text-[#7D7D7D] mt-[18px] mb-[23px] xs:text-[13px] xs:leading-6 xs:mt-[10px] xs:mb-4">
+                        Ehya lets you take control of your money, balance your
+                        income and expenses, and understand.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <p
+                            class="leading-8 font-outfit text-[20px] font-medium text-[#2E3234] xs:text-[14px]">
+                            Learn More
+                        </p>
+                        <button>
+                            <svg
+                                width="17"
+                                height="16"
+                                viewBox="0 0 17 16"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928931C9.95262 0.538407 9.31946 0.538407 8.92893 0.928931C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM8.74228e-08 9L16 9L16 7L-8.74228e-08 7L8.74228e-08 9Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+            </ul>
         </section>
         <script src="./js/burger.js"></script>
         <script src="./js//slider.js"></script>

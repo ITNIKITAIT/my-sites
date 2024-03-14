@@ -9,11 +9,11 @@
 }
 
 .title {
-    @apply font-outfit font-bold text-[48px] text-blueviolet leading-[62px];
+    @apply font-outfit font-bold text-[48px] text-blueviolet leading-[62px] sm:text-[36px] sm:leading-[32px] xs:text-[26px] xs:text-left;
 }
 
 .subtitle {
-    @apply font-outfit font-normal text-[18px] text-gray;
+    @apply font-outfit font-normal text-[18px] text-gray sm:text-[15px] xs:leading-[22px] xs:text-[14px];
 }
 
 .nav__link {
@@ -37,7 +37,7 @@
 }
 
 .card {
-    @apply py-8 px-[22px] bg-white border-e7 border-[2px] rounded-[20px]  min-w-[315px] w-[315px] hover:bg-hoverbtn cursor-pointer;
+    @apply py-8 px-[22px] bg-white border-e7 border-[2px] rounded-[20px]  min-w-[315px] w-[315px] hover:bg-hoverbtn cursor-pointer xs:min-w-[240px] xs:px-[17px];
 }
 
 .card--cur {
@@ -53,6 +53,21 @@
     fill: #fff;
 }
 
+:disabled {
+    pointer-events: none;
+}
+
+:disabled svg circle {
+    stroke: #d4d4d4;
+}
+
+:disabled svg path {
+    fill: #d4d4d4;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
 @keyframes k-bounce {
     0%,
     20%,

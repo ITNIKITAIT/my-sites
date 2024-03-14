@@ -9,39 +9,29 @@ const slider = () => {
     for (const card of slider.children) {
         cards.push(card);
     }
-
-    function activateButtons(type) {
-        let conditional = 0;
-        if (type === prev) conditional = 0;
-        if (type === next) conditional = NumOfCards - 1;
-
-        const svg = type.children[0];
-        if (currentId === conditional) {
-            svg.children[0].style.stroke = '#D4D4D4';
-            svg.children[1].style.fill = '#D4D4D4';
-            type.setAttribute('disabled', '');
-        } else {
-            svg.children[0].style.stroke = '#0A0A4A';
-            svg.children[1].style.fill = '#0A0A4A';
-            type.removeAttribute('disabled');
-        }
-    }
+    let cardWidth = cards[0].offsetWidth;
 
     function update() {
+        if (prev.hasAttribute('disabled')) prev.removeAttribute('disabled');
+        if (next.hasAttribute('disabled')) next.removeAttribute('disabled');
+
         cards.forEach((el) => {
             el.classList.remove('card--cur');
         });
         cards[currentId].classList.add('card--cur');
-        activateButtons(prev);
-        activateButtons(next);
+
+        if (currentId === 0) prev.setAttribute('disabled', '');
+        if (currentId === NumOfCards - 1) next.setAttribute('disabled', '');
     }
 
     prev.addEventListener('click', () => {
         if (currentId !== 0) currentId--;
+        slider.scrollLeft -= cardWidth + 32;
         update();
     });
     next.addEventListener('click', () => {
         if (currentId !== NumOfCards - 1) currentId++;
+        slider.scrollLeft += cardWidth + 32;
         update();
     });
 
@@ -49,6 +39,8 @@ const slider = () => {
         el.addEventListener('click', () => {
             currentId = i;
             update();
+            const leftWidth = currentId * cardWidth + currentId * 32;
+            slider.scrollLeft = leftWidth;
         });
     });
 };
