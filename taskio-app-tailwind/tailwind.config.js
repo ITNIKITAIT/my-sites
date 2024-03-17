@@ -30,6 +30,7 @@ module.exports = {
             colors: {
                 blueviolet: '#0A0A4A',
                 gray: '#909090',
+                lightblue: '#009DFC',
             },
             borderColor: {
                 e7: '#E7E7E7',

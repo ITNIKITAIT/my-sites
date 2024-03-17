@@ -24,6 +24,22 @@
     @apply font-normal text-[16px] text-black bg-white rounded-[8px] cursor-pointer font-outfit hover:bg-hoverbtn transition-all text-center;
 }
 
+.price {
+    @apply font-medium text-[20px] py-[13px] px-7 transition-all rounded-[12px];
+}
+
+.price:hover {
+    @apply bg-[#009bfc41];
+}
+
+.price--cur {
+    @apply px-9 bg-lightblue text-white;
+}
+
+.price--cur:hover {
+    @apply bg-lightblue;
+}
+
 .hero {
     animation: k-bounce 2s ease-in-out infinite;
 }
