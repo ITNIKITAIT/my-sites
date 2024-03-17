@@ -9,7 +9,7 @@
 }
 
 .title {
-    @apply font-outfit font-bold text-[48px] text-blueviolet leading-[62px] sm:text-[36px] sm:leading-[32px] xs:text-[26px] xs:text-left;
+    @apply font-outfit font-bold text-[48px] leading-[62px] sm:text-[36px] sm:leading-[32px] xs:text-[26px] xs:text-left;
 }
 
 .subtitle {
@@ -66,6 +66,13 @@
 }
 
 #slider::-webkit-scrollbar {
+    display: none;
+}
+
+#tags::-webkit-scrollbar {
+    display: none;
+}
+#tags2::-webkit-scrollbar {
     display: none;
 }
 @keyframes k-bounce {

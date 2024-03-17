@@ -25,6 +25,7 @@ module.exports = {
                 lightblue: '#009DFC',
                 hoverbtn: 'rgb(234 234 234)',
                 lightgray: '#F9F9F9',
+                darkblue: '#102437',
             },
             colors: {
                 blueviolet: '#0A0A4A',
