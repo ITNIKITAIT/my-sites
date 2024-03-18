@@ -25,7 +25,7 @@
 }
 
 .price {
-    @apply font-medium text-[20px] py-[13px] px-7 transition-all rounded-[12px];
+    @apply font-medium text-[20px] py-[13px] px-7 transition-all rounded-[12px] xs:py-[8px] xs:px-[26px] xs:text-[14px];
 }
 
 .price:hover {
@@ -33,7 +33,7 @@
 }
 
 .price--cur {
-    @apply px-9 bg-lightblue text-white;
+    @apply px-9 bg-lightblue text-white xs:px-7;
 }
 
 .price--cur:hover {
@@ -67,6 +67,22 @@
 
 .card--cur div button svg {
     fill: #fff;
+}
+
+input:checked + label {
+    @apply bg-lightblue text-white border-lightblue hover:bg-lightblue transition-all duration-300 shadow-md shadow-blue-300;
+}
+input:checked + label p,
+input:checked + label p span {
+    @apply text-white;
+}
+
+input:checked + label div div p {
+    @apply text-white text-opacity-80 bg-[#2FB0FF];
+}
+
+input:checked + label div div {
+    @apply border-none;
 }
 
 :disabled {
