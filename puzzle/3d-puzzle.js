@@ -105,7 +105,7 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-setTimeout(transform, 70);
+setTimeout(transform, 150);
 
 // animation for text
 document.addEventListener('DOMContentLoaded', () => {
