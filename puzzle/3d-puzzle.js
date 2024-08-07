@@ -53,9 +53,7 @@ scene.add(light);
 
 const dl = new THREE.DirectionalLight(0xffffff, 0.6);
 dl.position.set(0, 0, 1);
-dl.target.position.set(0, 0, -2);
 scene.add(dl);
-scene.add(dl.target);
 
 function animate() {
     requestAnimationFrame(animate);
