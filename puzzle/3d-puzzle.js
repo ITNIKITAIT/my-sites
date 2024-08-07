@@ -24,26 +24,38 @@ renderer.setSize(1280, 720);
 const mainContainer = document.getElementById('container3D');
 mainContainer.appendChild(renderer.domElement);
 const loader = new GLTFLoader();
-loader.load(`models/red-puzzle.gltf`, async function (gltf) {
+loader.load(`models/red-puzzle.glb`, async function (gltf) {
     redPuzzle = gltf.scene;
     await scene.add(redPuzzle);
     transform();
 });
-loader.load(`models/orange-puzzle.gltf`, async function (gltf) {
+loader.load(`models/orange-puzzle.glb`, async function (gltf) {
     orangePuzzle = gltf.scene;
     await scene.add(orangePuzzle);
     transform();
 });
-loader.load(`models/green-puzzle.gltf`, async function (gltf) {
+loader.load(`models/green-puzzle.glb`, async function (gltf) {
     greenPuzzle = gltf.scene;
     await scene.add(greenPuzzle);
     transform();
 });
-loader.load(`models/blue-puzzle.gltf`, async function (gltf) {
+loader.load(`models/blue-puzzle.glb`, async function (gltf) {
     bluePuzzle = gltf.scene;
     await scene.add(bluePuzzle);
     transform();
 });
+
+// const ambientLight = new THREE.AmbientLight(0xffffff, 1);
+// scene.add(ambientLight);
+
+const light = new THREE.HemisphereLight(0xffffff, 0xffffff, 1);
+scene.add(light);
+
+const dl = new THREE.DirectionalLight(0xffffff, 0.6);
+dl.position.set(0, 0, 1);
+dl.target.position.set(0, 0, -2);
+scene.add(dl);
+scene.add(dl.target);
 
 function animate() {
     requestAnimationFrame(animate);
