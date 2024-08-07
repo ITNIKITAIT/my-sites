@@ -8,7 +8,10 @@ const camera = new THREE.PerspectiveCamera(
     0.1,
     1000
 );
-camera.position.set(2.15, 1.2, 8);
+
+const zCamera = window.matchMedia('(max-width: 600px)').matches ? 10 : 8;
+
+camera.position.set(2.15, 1.2, zCamera);
 
 let redPuzzle;
 let orangePuzzle;
