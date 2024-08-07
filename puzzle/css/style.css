@@ -1304,14 +1304,6 @@ a {
   display: none;
 }
 
-@media (max-width: 955px) {
-  #container3D {
-    max-height: 100vh;
-    max-width: 100vh;
-    width: 100%;
-    height: 100%;
-  }
-}
 @media (min-width: 1477px) {
   .plans_puzzle {
     top: -151px;
@@ -1338,9 +1330,6 @@ a {
   .title {
     font-size: 32px;
     line-height: 44.8px;
-  }
-  .header {
-    background-image: url("../images/bg_middle_header.png");
   }
   .header .container .nav_menu {
     margin-right: 0;
@@ -1555,7 +1544,7 @@ a {
     line-height: 44.8px;
   }
   .header {
-    background-image: url("../images/bg_mobile_header.png");
+    background-image: url("../images/mobile-clear-bg.png");
   }
   .header .container .nav_menu {
     display: none;
@@ -1767,9 +1756,15 @@ a {
     font-size: 16px;
     line-height: 24px;
   }
+  .about-us__title-wrapper {
+    margin-bottom: 120px;
+  }
   .about-us_circle {
     width: 300px;
     height: 300px;
+  }
+  .about-us_circle::before {
+    top: 20%;
   }
   .services_wrap-active {
     height: 1200px;
@@ -1858,5 +1853,11 @@ a {
   .main-btn .contantUsSvg {
     min-width: 32px;
     min-height: 32px;
+  }
+  .about-us_circle::before {
+    top: 35%;
+  }
+  .about-us__title-wrapper {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

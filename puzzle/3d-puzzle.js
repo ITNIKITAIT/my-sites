@@ -56,21 +56,40 @@ function transform() {
     let percentage = 100 - (window.scrollY / window.innerHeight) * 55 - 0.0001;
 
     if (percentage > 0 && percentage < 100) {
-        if (window.matchMedia('(max-width: 955px)').matches) {
-            redPuzzle.position.y = percentage * 0.025;
-            redPuzzle.position.x = percentage * 0.035;
-            redPuzzle.rotation.z = percentage * 0.001;
+        if (
+            window.matchMedia('(max-width: 955px)').matches &&
+            window.matchMedia('(min-width: 600px)').matches
+        ) {
+            redPuzzle.position.y = percentage * 0.03;
+            redPuzzle.position.x = percentage * 0.05;
+            redPuzzle.rotation.z = percentage * 0.003;
 
-            orangePuzzle.position.y = percentage * 0.02;
+            orangePuzzle.position.y = percentage * 0.03;
             orangePuzzle.position.x = -(percentage * 0.035);
-            orangePuzzle.rotation.z = percentage * 0.006;
+            orangePuzzle.rotation.z = percentage * 0.01;
 
-            greenPuzzle.position.y = -(percentage * 0.02);
+            greenPuzzle.position.y = -(percentage * 0.005);
             greenPuzzle.position.x = -(percentage * 0.04);
-            greenPuzzle.rotation.z = percentage * 0.006;
+            greenPuzzle.rotation.z = percentage * 0.001;
 
-            bluePuzzle.position.y = -(percentage * 0.015);
-            bluePuzzle.position.x = percentage * 0.03;
+            bluePuzzle.position.y = -(percentage * 0.01);
+            bluePuzzle.position.x = percentage * 0.04;
+            bluePuzzle.rotation.z = percentage * 0.002;
+        } else if (window.matchMedia('(max-width: 600px)').matches) {
+            redPuzzle.position.y = percentage * 0.03;
+            redPuzzle.position.x = percentage * 0.04;
+            redPuzzle.rotation.z = percentage * 0.003;
+
+            orangePuzzle.position.y = percentage * 0.025;
+            orangePuzzle.position.x = -(percentage * 0.02);
+            orangePuzzle.rotation.z = percentage * 0.01;
+
+            greenPuzzle.position.y = -(percentage * 0.01);
+            greenPuzzle.position.x = -(percentage * 0.02);
+            greenPuzzle.rotation.z = percentage * 0.001;
+
+            bluePuzzle.position.y = -(percentage * 0.01);
+            bluePuzzle.position.x = percentage * 0.02;
             bluePuzzle.rotation.z = percentage * 0.002;
         } else {
             redPuzzle.position.y = percentage * 0.025;
