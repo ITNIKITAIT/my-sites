@@ -21,21 +21,25 @@ renderer.setSize(1280, 720);
 const mainContainer = document.getElementById('container3D');
 mainContainer.appendChild(renderer.domElement);
 const loader = new GLTFLoader();
-loader.load(`models/red-puzzle.gltf`, function (gltf) {
+loader.load(`models/red-puzzle.gltf`, async function (gltf) {
     redPuzzle = gltf.scene;
-    scene.add(redPuzzle);
+    await scene.add(redPuzzle);
+    transform();
 });
-loader.load(`models/orange-puzzle.gltf`, function (gltf) {
+loader.load(`models/orange-puzzle.gltf`, async function (gltf) {
     orangePuzzle = gltf.scene;
-    scene.add(orangePuzzle);
+    await scene.add(orangePuzzle);
+    transform();
 });
-loader.load(`models/green-puzzle.gltf`, function (gltf) {
+loader.load(`models/green-puzzle.gltf`, async function (gltf) {
     greenPuzzle = gltf.scene;
-    scene.add(greenPuzzle);
+    await scene.add(greenPuzzle);
+    transform();
 });
-loader.load(`models/blue-puzzle.gltf`, function (gltf) {
+loader.load(`models/blue-puzzle.gltf`, async function (gltf) {
     bluePuzzle = gltf.scene;
-    scene.add(bluePuzzle);
+    await scene.add(bluePuzzle);
+    transform();
 });
 
 function animate() {
@@ -105,7 +109,7 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-setTimeout(transform, 150);
+// setTimeout(transform, 150);
 
 // animation for text
 document.addEventListener('DOMContentLoaded', () => {
