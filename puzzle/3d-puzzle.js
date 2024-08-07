@@ -8,7 +8,7 @@ const camera = new THREE.PerspectiveCamera(
     0.1,
     1000
 );
-camera.position.set(2.15, 1.2, 7);
+camera.position.set(2.15, 1.2, 8);
 
 let redPuzzle;
 let orangePuzzle;
@@ -70,20 +70,20 @@ function transform() {
             bluePuzzle.position.x = percentage * 0.03;
             bluePuzzle.rotation.z = percentage * 0.002;
         } else {
-            redPuzzle.position.y = percentage * 0.015;
-            redPuzzle.position.x = percentage * 0.04;
-            redPuzzle.rotation.z = percentage * 0.001;
+            redPuzzle.position.y = percentage * 0.025;
+            redPuzzle.position.x = percentage * 0.06;
+            redPuzzle.rotation.z = -(percentage * 0.003);
 
-            orangePuzzle.position.y = percentage * 0.008;
-            orangePuzzle.position.x = -(percentage * 0.05);
-            orangePuzzle.rotation.z = percentage * 0.006;
+            orangePuzzle.position.y = percentage * 0.01;
+            orangePuzzle.position.x = -(percentage * 0.06);
+            orangePuzzle.rotation.z = percentage * 0.01;
 
-            greenPuzzle.position.y = -(percentage * 0.025);
+            greenPuzzle.position.y = -(percentage * 0.02);
             greenPuzzle.position.x = -(percentage * 0.06);
-            greenPuzzle.rotation.z = percentage * 0.006;
+            greenPuzzle.rotation.z = percentage * 0.001;
 
             bluePuzzle.position.y = -(percentage * 0.017);
-            bluePuzzle.position.x = percentage * 0.05;
+            bluePuzzle.position.x = percentage * 0.045;
             bluePuzzle.rotation.z = percentage * 0.002;
         }
     }

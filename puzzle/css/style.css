@@ -259,6 +259,7 @@ a {
   width: 81%;
   text-align: center;
   align-items: center;
+  z-index: 20;
 }
 .header .container .wrap_title {
   line-height: 88px;
@@ -1756,6 +1757,10 @@ a {
   .about-us_descr {
     font-size: 16px;
     line-height: 24px;
+  }
+  .about-us_circle {
+    width: 300px;
+    height: 300px;
   }
   .services_wrap-active {
     height: 1200px;
