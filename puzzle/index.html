@@ -23,138 +23,132 @@
         <title id="title"></title>
     </head>
     <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav_subwrapper">
+                    <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
+                    <nav class="nav_menu">
+                        <a href="#about" class="nav_about-us" id="nav_about-us"
+                            >about us</a
+                        >
+                        <a
+                            href="#services"
+                            class="nav_services"
+                            id="nav_services"
+                            >services</a
+                        >
+                        <a
+                            href="#work"
+                            class="nav_our-process"
+                            id="nav_our-process"
+                            >our process</a
+                        >
+                        <a href="#price" class="nav_our-process" id="nav_price"
+                            >price</a
+                        >
+                        <a
+                            href="#contacts"
+                            class="nav_contacts"
+                            id="nav_contacts"
+                            >contacts</a
+                        >
+                    </nav>
+                    <div class="nav-wrapper">
+                        <div class="nav_language-switcher">
+                            <div class="nav_language" id="nav_language">EN</div>
+                            <img
+                                src="./icons/arrow_down.svg"
+                                alt="arrow_down" />
+
+                            <div
+                                class="languages_dropdown"
+                                id="languages_dropdown">
+                                <div class="nav_language_pick" data-lang="en">
+                                    English
+                                </div>
+                                <div class="nav_language_pick" data-lang="es">
+                                    Spanish
+                                </div>
+                                <div class="nav_language_pick" data-lang="uk">
+                                    Ukrainian
+                                </div>
+                                <div class="nav_language_pick" data-lang="ru">
+                                    Russian
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hamburger">
+                            <span class="hamburger-span"></span>
+                            <span class="hamburger-span"></span>
+                        </div>
+                        <a
+                            href="#messangers"
+                            class="nav-scrolled-btn"
+                            id="nav-scrolled-btn"
+                            >Contact us</a
+                        >
+                    </div>
+                </div>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a
+                            href="#about-mobile"
+                            class="nav_link"
+                            id="nav_link_about-mobile"
+                            onclick="toggleMenu()"
+                            >about us</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#services-mobile"
+                            class="nav_link"
+                            id="nav_link_services-mobile"
+                            onclick="toggleMenu()"
+                            >services</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#work-mobile"
+                            class="nav_link"
+                            id="nav_link_work-mobile"
+                            onclick="toggleMenu()"
+                            >our process</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#price"
+                            class="nav_link"
+                            id="nav_link_price-mobile"
+                            onclick="toggleMenu()"
+                            >price</a
+                        >
+                    </li>
+                    <li class="nav_item">
+                        <a
+                            href="#contacts-mobile"
+                            class="nav_link"
+                            id="nav_link_contacts-mobile"
+                            onclick="toggleMenu()"
+                            >contacts</a
+                        >
+                    </li>
+                </ul>
+                <a
+                    href="#messangers-mobile"
+                    class="nav_btn"
+                    id="nav_btn_messangers-mobile"
+                    onclick="toggleMenu()"
+                    >Contact us</a
+                >
+            </div>
+        </nav>
         <div class="header-container">
             <div id="container3D"></div>
             <section class="header">
                 <div class="container">
-                    <nav class="nav">
-                        <div class="container">
-                            <div class="nav_subwrapper">
-                                <img
-                                    class="nav_logo"
-                                    src="./icons/logo.svg"
-                                    alt="logo" />
-                                <nav class="nav_menu">
-                                    <a
-                                        href="#about"
-                                        class="nav_about-us"
-                                        id="nav_about-us"
-                                        >about us</a
-                                    >
-                                    <a
-                                        href="#services"
-                                        class="nav_services"
-                                        id="nav_services"
-                                        >services</a
-                                    >
-                                    <a
-                                        href="#work"
-                                        class="nav_our-process"
-                                        id="nav_our-process"
-                                        >our process</a
-                                    >
-                                    <a
-                                        href="#contacts"
-                                        class="nav_contacts"
-                                        id="nav_contacts"
-                                        >contacts</a
-                                    >
-                                </nav>
-                                <div class="nav-wrapper">
-                                    <div class="nav_language-switcher">
-                                        <div
-                                            class="nav_language"
-                                            id="nav_language">
-                                            EN
-                                        </div>
-                                        <img
-                                            src="./icons/arrow_down.svg"
-                                            alt="arrow_down" />
-
-                                        <div
-                                            class="languages_dropdown"
-                                            id="languages_dropdown">
-                                            <div
-                                                class="nav_language_pick"
-                                                data-lang="en">
-                                                English
-                                            </div>
-                                            <div
-                                                class="nav_language_pick"
-                                                data-lang="es">
-                                                Spanish
-                                            </div>
-                                            <div
-                                                class="nav_language_pick"
-                                                data-lang="uk">
-                                                Ukrainian
-                                            </div>
-                                            <div
-                                                class="nav_language_pick"
-                                                data-lang="ru">
-                                                Russian
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="hamburger">
-                                        <span class="hamburger-span"></span>
-                                        <span class="hamburger-span"></span>
-                                    </div>
-                                    <a
-                                        href="#messangers"
-                                        class="nav-scrolled-btn"
-                                        id="nav-scrolled-btn"
-                                        >Contact us</a
-                                    >
-                                </div>
-                            </div>
-                            <ul class="nav_list">
-                                <li class="nav_item">
-                                    <a
-                                        href="#about-mobile"
-                                        class="nav_link"
-                                        id="nav_link_about-mobile"
-                                        onclick="toggleMenu()"
-                                        >about us</a
-                                    >
-                                </li>
-                                <li class="nav_item">
-                                    <a
-                                        href="#services-mobile"
-                                        class="nav_link"
-                                        id="nav_link_services-mobile"
-                                        onclick="toggleMenu()"
-                                        >services</a
-                                    >
-                                </li>
-                                <li class="nav_item">
-                                    <a
-                                        href="#work-mobile"
-                                        class="nav_link"
-                                        id="nav_link_work-mobile"
-                                        onclick="toggleMenu()"
-                                        >our process</a
-                                    >
-                                </li>
-                                <li class="nav_item">
-                                    <a
-                                        href="#contacts-mobile"
-                                        class="nav_link"
-                                        id="nav_link_contacts-mobile"
-                                        onclick="toggleMenu()"
-                                        >contacts</a
-                                    >
-                                </li>
-                            </ul>
-                            <a
-                                href="#messangers-mobile"
-                                class="nav_btn"
-                                id="nav_btn_messangers-mobile"
-                                onclick="toggleMenu()"
-                                >Contact us</a
-                            >
-                        </div>
-                    </nav>
                     <div class="wrap">
                         <h1 class="wrap_title" id="wrap_title">
                             Transform your ideas to
@@ -171,7 +165,7 @@
                             <button class="main-btn">
                                 <div class="bg-gradient"></div>
                                 <div class="bg-fullfill"></div>
-                                <span>Contact us</span>
+                                <span id="contact_us">Contact us</span>
 
                                 <svg
                                     class="contantUsSvg"
@@ -1194,7 +1188,7 @@
             </div>
         </section>
         <div class="container">
-            <section class="plans">
+            <section class="plans" id="price">
                 <div class="subtitle" id="plans_subtitle">Our Plans</div>
                 <h2 class="title" id="plans_title">
                     Let’s start collaboration!
@@ -1829,6 +1823,8 @@
                 </div>
                 <div class="messengers_wrap" id="messengers_wrap">
                     <a
+                        href="#"
+                        target="blank"
                         class="messengers_item whatsapp"
                         id="messengers_item_whatsapp">
                         <div class="messengers_whatsapp-shadow"></div>
@@ -1846,6 +1842,8 @@
                         src="./icons/messengers_divider.svg"
                         alt="divider" />
                     <a
+                        href="https://t.me/puzzledesire"
+                        target="blank"
                         class="messengers_item telegram"
                         id="messengers_item_telegram">
                         <div class="messengers_telegram-shadow"></div>
@@ -1862,7 +1860,11 @@
                         class="messengers_divider"
                         src="./icons/messengers_divider.svg"
                         alt="divider" />
-                    <a class="messengers_item viber" id="messengers_item_viber">
+                    <a
+                        href="#"
+                        target="blank"
+                        class="messengers_item viber"
+                        id="messengers_item_viber">
                         <div class="messengers_viber-shadow"></div>
                         <div class="messengers_icon">
                             <img src="./icons/viber.svg" alt="viber" />
@@ -1917,11 +1919,13 @@
                                 Email
                             </div>
                         </div>
-                        <div
+                        <a
+                            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=puzzledes@desire"
+                            target="blank"
                             class="contacts_contact"
                             id="contacts_contact_email">
                             puzzledes@desire
-                        </div>
+                        </a>
                     </div>
                     <div class="contacts_divider-wrap">
                         <div class="contacts_divider-horizontal"></div>
@@ -1932,6 +1936,8 @@
                         </div>
                         <div class="contacts_wrap">
                             <a
+                                href="#"
+                                target="blank"
                                 class="contacts_item whatsapp"
                                 id="contacts_item_whatsapp">
                                 <div class="contacts_icon">
@@ -1951,6 +1957,8 @@
                                 src="./icons/contacts_divider.svg"
                                 alt="divider" />
                             <a
+                                href="https://t.me/puzzledesire"
+                                target="blank"
                                 class="contacts_item telegram"
                                 id="contacts_item_telegram">
                                 <div class="contacts_icon telegram_icon">
@@ -1978,6 +1986,8 @@
                                 src="./icons/contacts_divider.svg"
                                 alt="divider" />
                             <a
+                                href="#"
+                                target="blank"
                                 class="contacts_item viber"
                                 id="contacts_item_viber">
                                 <div class="contacts_icon">
@@ -2037,22 +2047,30 @@
                             Follow on social media
                         </div>
                         <div class="footer_icons">
-                            <img
-                                src="./icons/facebook_footer.svg"
-                                alt="facebook"
-                                class="footer_icon" />
-                            <img
-                                src="./icons/twitter.svg"
-                                alt="twitter"
-                                class="footer_icon" />
-                            <img
-                                src="./icons/insta.svg"
-                                alt="instagram"
-                                class="footer_icon" />
-                            <img
-                                src="./icons/youtube.svg"
-                                alt="youtube"
-                                class="footer_icon" />
+                            <a href="#" target="blank"
+                                ><img
+                                    src="./icons/facebook_footer.svg"
+                                    alt="facebook"
+                                    class="footer_icon"
+                            /></a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/twitter.svg"
+                                    alt="twitter"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/insta.svg"
+                                    alt="instagram"
+                                    class="footer_icon" />
+                            </a>
+                            <a href="#" target="blank">
+                                <img
+                                    src="./icons/youtube.svg"
+                                    alt="youtube"
+                                    class="footer_icon" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -2084,6 +2102,13 @@
                 </div>
             </div>
         </footer>
+
+        <button id="back-to-top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+            </svg>
+        </button>
 
         <script src="./lang.js"></script>
         <script src="./script.js"></script>
