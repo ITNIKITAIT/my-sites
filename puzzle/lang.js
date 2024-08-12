@@ -139,20 +139,38 @@ const lang = {
         plans_info:
             "Support for uninterrupted site operation (hosting, corrections up to 5) - <span class='plans_info-bold'>150€</span> + VAT (per month after the free period)",
         benefits_subtitle: 'Our benefits',
+        'benefits-mobile_subtitle': 'Our benefits',
         benefits_title:
+            'Our client-centric approach ensures your vision thrives.',
+        'benefits-mobile_title':
             'Our client-centric approach ensures your vision thrives.',
         benefits_title_tailored_solutions: 'Tailored Solutions',
         benefits_descr_tailored_solutions:
+            "We ensure your unique needs are met with personalized strategies, meticulously crafted to address your specific requirements and objectives. By tailoring our approach to suit your individual preferences, we guarantee not only satisfaction but also enduring success at every stage of your project's evolution.",
+        'benefits_title_tailored_solutions-mobile': 'Tailored Solutions',
+        'benefits_descr_tailored_solutions-mobile':
             "We ensure your unique needs are met with personalized strategies, meticulously crafted to address your specific requirements and objectives. By tailoring our approach to suit your individual preferences, we guarantee not only satisfaction but also enduring success at every stage of your project's evolution.",
         benefits_title_expertise_across_disciplines:
             'Expertise Across Disciplines',
         benefits_descr_expertise_across_disciplines:
             'With a diverse team of skilled professionals, including designers, developers, and strategists, Innovatech Studios offers comprehensive expertise across all aspects of creative development. From concept to execution, we have the knowledge and skills to bring your vision to life.',
+        'benefits_title_expertise_across_disciplines-mobile':
+            'Expertise Across Disciplines',
+        'benefits_descr_expertise_across_disciplines-mobile':
+            'With a diverse team of skilled professionals, including designers, developers, and strategists, Innovatech Studios offers comprehensive expertise across all aspects of creative development. From concept to execution, we have the knowledge and skills to bring your vision to life.',
         benefits_title_client_centric_approach: 'Client-Centric Approach',
         benefits_descr_client_centric_approach:
             'At the heart of our process is a commitment to putting our clients first. We prioritize open communication, actively listening to your feedback and preferences throughout the project lifecycle to ensure your complete satisfaction.',
+        'benefits_title_client_centric_approach-mobile':
+            'Client-Centric Approach',
+        'benefits_descr_client_centric_approach-mobile':
+            'At the heart of our process is a commitment to putting our clients first. We prioritize open communication, actively listening to your feedback and preferences throughout the project lifecycle to ensure your complete satisfaction.',
         benefits_title_innovation_driven_results: 'Innovation-driven Results',
         benefits_descr_innovation_driven_results:
+            'As our name suggests, innovation is at the core of everything we do. At Innovatech Studios, we constantly push the boundaries of creativity and technology to deliver cutting-edge solutions that drive tangible success for our clients.',
+        'benefits_title_innovation_driven_results-mobile':
+            'Innovation-driven Results',
+        'benefits_descr_innovation_driven_results-mobile':
             'As our name suggests, innovation is at the core of everything we do. At Innovatech Studios, we constantly push the boundaries of creativity and technology to deliver cutting-edge solutions that drive tangible success for our clients.',
         messengers_subtitle: 'Let’s talk!',
         messengers_title: 'Ready to discuss your project with us?',
@@ -382,10 +400,16 @@ const lang = {
         plans_info:
             "Поддержка бесперебойной работы сайта (хостинг, исправления до 5) - <span class='plans_info-bold'>150€</span> + НДС (в месяц после бесплатного периода)",
         benefits_subtitle: 'Наши преимущества',
+        'benefits-mobile_subtitle': 'Наши преимущества',
         benefits_title:
+            'Наш клиент-ориентированный подход обеспечивает успех вашего видения.',
+        'benefits-mobile_title':
             'Наш клиент-ориентированный подход обеспечивает успех вашего видения.',
         benefits_title_tailored_solutions: 'Индивидуальные решения',
         benefits_descr_tailored_solutions:
+            'Мы обеспечиваем удовлетворение ваших уникальных потребностей с помощью персонализированных стратегий, тщательно разработанных для удовлетворения ваших конкретных требований и целей. Адаптируя наш подход к вашим индивидуальным предпочтениям, мы гарантируем не только удовлетворение, но и устойчивый успех на каждом этапе развития вашего проекта.',
+        'benefits_title_tailored_solutions-mobile': 'Индивидуальные решения',
+        'benefits_descr_tailored_solutions-mobile':
             'Мы обеспечиваем удовлетворение ваших уникальных потребностей с помощью персонализированных стратегий, тщательно разработанных для удовлетворения ваших конкретных требований и целей. Адаптируя наш подход к вашим индивидуальным предпочтениям, мы гарантируем не только удовлетворение, но и устойчивый успех на каждом этапе развития вашего проекта.',
         benefits_title_expertise_across_disciplines:
             'Экспертиза в различных дисциплинах',
@@ -398,6 +422,18 @@ const lang = {
         benefits_title_innovation_driven_results:
             'Результаты, движимые инновациями',
         benefits_descr_innovation_driven_results:
+            'Как следует из нашего названия, инновации лежат в основе всего, что мы делаем. В Innovatech Studios мы постоянно расширяем границы креативности и технологий, чтобы предоставлять передовые решения, которые приносят ощутимый успех нашим клиентам.',
+        'benefits_title_expertise_across_disciplines-mobile':
+            'Экспертиза в различных дисциплинах',
+        'benefits_descr_expertise_across_disciplines-mobile':
+            'С разнообразной командой квалифицированных профессионалов, включая дизайнеров, разработчиков и стратегов, Innovatech Studios предлагает всестороннюю экспертизу во всех аспектах креативного развития. От концепции до исполнения у нас есть знания и навыки, чтобы воплотить ваше видение в жизнь.',
+        'benefits_title_client_centric_approach-mobile':
+            'Клиенто-ориентированный подход',
+        'benefits_descr_client_centric_approach-mobile':
+            'В основе нашего процесса лежит стремление ставить клиентов на первое место. Мы придаем большое значение открытой коммуникации, активно прислушиваемся к вашим отзывам и предпочтениям на протяжении всего жизненного цикла проекта, чтобы обеспечить ваше полное удовлетворение.',
+        'benefits_title_innovation_driven_results-mobile':
+            'Результаты, движимые инновациями',
+        'benefits_descr_innovation_driven_results-mobile':
             'Как следует из нашего названия, инновации лежат в основе всего, что мы делаем. В Innovatech Studios мы постоянно расширяем границы креативности и технологий, чтобы предоставлять передовые решения, которые приносят ощутимый успех нашим клиентам.',
 
         messengers_subtitle: 'Давайте поговорим!',
@@ -627,10 +663,16 @@ const lang = {
         plans_info:
             "Soporte para el funcionamiento ininterrumpido del sitio (hosting, correcciones hasta 5) - <span class='plans_info-bold'>150€</span> + IVA (por mes después del período gratuito)",
         benefits_subtitle: 'Nuestros beneficios',
+        'benefits-mobile_subtitle': 'Nuestros beneficios',
         benefits_title:
+            'Nuestro enfoque centrado en el cliente asegura que tu visión prospere.',
+        'benefits-mobile_title':
             'Nuestro enfoque centrado en el cliente asegura que tu visión prospere.',
         benefits_title_tailored_solutions: 'Soluciones Personalizadas',
         benefits_descr_tailored_solutions:
+            'Aseguramos que tus necesidades únicas se cumplan con estrategias personalizadas, meticulosamente elaboradas para abordar tus requisitos y objetivos específicos. Al adaptar nuestro enfoque para adecuarse a tus preferencias individuales, garantizamos no solo satisfacción, sino también éxito duradero en cada etapa de la evolución de tu proyecto.',
+        'benefits_title_tailored_solutions-mobile': 'Soluciones Personalizadas',
+        'benefits_descr_tailored_solutions-mobile':
             'Aseguramos que tus necesidades únicas se cumplan con estrategias personalizadas, meticulosamente elaboradas para abordar tus requisitos y objetivos específicos. Al adaptar nuestro enfoque para adecuarse a tus preferencias individuales, garantizamos no solo satisfacción, sino también éxito duradero en cada etapa de la evolución de tu proyecto.',
         benefits_title_expertise_across_disciplines:
             'Experiencia en Diversas Disciplinas',
@@ -643,6 +685,18 @@ const lang = {
         benefits_title_innovation_driven_results:
             'Resultados Impulsados por la Innovación',
         benefits_descr_innovation_driven_results:
+            'Como sugiere nuestro nombre, la innovación está en el centro de todo lo que hacemos. En Innovatech Studios, constantemente empujamos los límites de la creatividad y la tecnología para ofrecer soluciones de vanguardia que impulsen el éxito tangible de nuestros clientes.',
+        'benefits_title_expertise_across_disciplines-mobile':
+            'Experiencia en Diversas Disciplinas',
+        'benefits_descr_expertise_across_disciplines-mobile':
+            'Con un equipo diverso de profesionales cualificados, incluyendo diseñadores, desarrolladores y estrategas, Innovatech Studios ofrece una experiencia integral en todos los aspectos del desarrollo creativo. Desde el concepto hasta la ejecución, tenemos el conocimiento y las habilidades para dar vida a tu visión.',
+        'benefits_title_client_centric_approach-mobile':
+            'Enfoque Centrado en el Cliente',
+        'benefits_descr_client_centric_approach-mobile':
+            'En el corazón de nuestro proceso está el compromiso de poner a nuestros clientes en primer lugar. Priorizamos la comunicación abierta, escuchando activamente tus comentarios y preferencias a lo largo del ciclo de vida del proyecto para asegurar tu completa satisfacción.',
+        'benefits_title_innovation_driven_results-mobile':
+            'Resultados Impulsados por la Innovación',
+        'benefits_descr_innovation_driven_results-mobile':
             'Como sugiere nuestro nombre, la innovación está en el centro de todo lo que hacemos. En Innovatech Studios, constantemente empujamos los límites de la creatividad y la tecnología para ofrecer soluciones de vanguardia que impulsen el éxito tangible de nuestros clientes.',
         messengers_subtitle: '¡Hablemos!',
         messengers_title: '¿Listo para discutir tu proyecto con nosotros?',
@@ -870,21 +924,41 @@ const lang = {
         plans_info:
             "Підтримка безперебійної роботи сайту (хостинг, виправлення до 5) - <span class='plans_info-bold'>150€</span> + ПДВ (на місяць після безкоштовного періоду)",
         benefits_subtitle: 'Наші переваги',
+        'benefits-mobile_subtitle': 'Наші переваги',
         benefits_title:
+            'Наш клієнт-орієнтований підхід забезпечує успіх вашого бачення.',
+        'benefits-mobile_title':
             'Наш клієнт-орієнтований підхід забезпечує успіх вашого бачення.',
         benefits_title_tailored_solutions: 'Індивідуальні рішення',
         benefits_descr_tailored_solutions:
+            'Ми забезпечуємо задоволення ваших унікальних потреб за допомогою персоналізованих стратегій, ретельно розроблених для задоволення ваших конкретних вимог і цілей. Адаптуючи наш підхід до ваших індивідуальних уподобань, ми гарантуємо не тільки задоволення, але й стійкий успіх на кожному етапі розвитку вашого проекту.',
+        'benefits_title_tailored_solutions-mobile': 'Індивідуальні рішення',
+        'benefits_descr_tailored_solutions-mobile':
             'Ми забезпечуємо задоволення ваших унікальних потреб за допомогою персоналізованих стратегій, ретельно розроблених для задоволення ваших конкретних вимог і цілей. Адаптуючи наш підхід до ваших індивідуальних уподобань, ми гарантуємо не тільки задоволення, але й стійкий успіх на кожному етапі розвитку вашого проекту.',
         benefits_title_expertise_across_disciplines:
             'Експертиза в різних дисциплінах',
         benefits_descr_expertise_across_disciplines:
             'З різноманітною командою кваліфікованих професіоналів, включаючи дизайнерів, розробників і стратегів, Innovatech Studios пропонує всебічну експертизу у всіх аспектах креативного розвитку. Від концепції до виконання у нас є знання і навички, щоб втілити ваше бачення в життя.',
+        'benefits_title_expertise_across_disciplines-mobile':
+            'Експертиза в різних дисциплінах',
+        'benefits_descr_expertise_across_disciplines-mobile':
+            'З різноманітною командою кваліфікованих професіоналів, включаючи дизайнерів, розробників і стратегів, Innovatech Studios пропонує всебічну експертизу у всіх аспектах креативного розвитку. Від концепції до виконання у нас є знання і навички, щоб втілити ваше бачення в життя.',
         benefits_title_client_centric_approach: 'Клієнт-орієнтований підхід',
         benefits_descr_client_centric_approach:
+            'В основі нашого процесу лежить прагнення ставити клієнтів на перше місце. Ми надаємо великого значення відкритій комунікації, активно прислухаємося до ваших відгуків і вподобань протягом усього життєвого циклу проекту, щоб забезпечити ваше повне задоволення.',
+        'benefits_title_client_centric_approach-mobile':
+            'Клієнт-орієнтований підхід',
+        'benefits_descr_client_centric_approach-mobile':
             'В основі нашого процесу лежить прагнення ставити клієнтів на перше місце. Ми надаємо великого значення відкритій комунікації, активно прислухаємося до ваших відгуків і вподобань протягом усього життєвого циклу проекту, щоб забезпечити ваше повне задоволення.',
         benefits_title_innovation_driven_results:
             'Результати, які керуються інноваціями',
         benefits_descr_innovation_driven_results:
+            'Як випливає з нашої назви, інновації лежать в основі всього, що ми робимо. В Innovatech Studios ми постійно розширюємо межі креативності і технологій, щоб надавати передові рішення, які приносять відчутний успіх нашим клієнтам.',
+        'benefits_title_innovation_driven_results-mobile':
+            'Результати, які керуються інноваціями',
+        benefits_descr_innovation_driven_results:
+            'Як випливає з нашої назви, інновації лежать в основі всього, що ми робимо. В Innovatech Studios ми постійно розширюємо межі креативності і технологій, щоб надавати передові рішення, які приносять відчутний успіх нашим клієнтам.',
+        'benefits_descr_innovation_driven_results-mobile':
             'Як випливає з нашої назви, інновації лежать в основі всього, що ми робимо. В Innovatech Studios ми постійно розширюємо межі креативності і технологій, щоб надавати передові рішення, які приносять відчутний успіх нашим клієнтам.',
         messengers_subtitle: 'Давайте поговоримо!',
         messengers_title: 'Готові обговорити ваш проект з нами?',
