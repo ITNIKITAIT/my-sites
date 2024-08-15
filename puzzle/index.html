@@ -1891,6 +1891,97 @@
                             alt="vector"
                             id="contacts_content_img" />
                     </div>
+                    <div class="form__wrapper">
+                        <form
+                            id="contactForm"
+                            class="contact-form"
+                            action="https://hooks.zapier.com/hooks/catch/19798932/24nhg3w/"
+                            method="POST">
+                            <div class="form-group">
+                                <label id="label-name" for="name">Name</label>
+                                <input
+                                    required
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="John Carter" />
+                                <span
+                                    id="nameError"
+                                    class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-phone" for="phone"
+                                    >Phone</label
+                                >
+                                <input
+                                    required
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="(123) 456 - 789" />
+                                <span
+                                    id="phoneError"
+                                    class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-interest" for="interest"
+                                    >I am interested in...</label
+                                >
+
+                                <select required id="interest" name="interest">
+                                    <option
+                                        id="option-select"
+                                        value=""
+                                        disabled
+                                        selected>
+                                        Select an option
+                                    </option>
+                                    <option
+                                        id="option-consultation"
+                                        value="consultation">
+                                        Consultation
+                                    </option>
+                                    <option
+                                        id="option-development"
+                                        value="website-development">
+                                        Website development
+                                    </option>
+                                    <option
+                                        id="option-design"
+                                        value="logo-design">
+                                        Logo design
+                                    </option>
+                                    <option
+                                        id="option-promotion"
+                                        value="site-promotion">
+                                        Modernization of my site and promotion
+                                    </option>
+                                    <option id="option-other" value="other">
+                                        Other (write down your requests)
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label id="label-message" for="message"
+                                    >Leave us a message</label
+                                >
+                                <textarea
+                                    required
+                                    id="message"
+                                    name="message"></textarea>
+                            </div>
+                            <button id="contactForm-btn">Send Message</button>
+                        </form>
+                        <div class="form-success">
+                            <img
+                                src="https://cdn.prod.website-files.com/6630292f13d863327744df39/6657661e6496e44a2d130067_line-rounded-check-circle-white-brix-templates.svg" />
+                            <h3>Thank you</h3>
+                            <p>
+                                Thank you for your application, our managers
+                                will contact you soon.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="contacts_right">
                     <div class="contacts_phone-number">
@@ -2112,6 +2203,7 @@
 
         <script src="./lang.js"></script>
         <script src="./script.js"></script>
+        <script src="./validation.js"></script>
 
         <script type="module" src="./3d-puzzle.js"></script>
     </body>
