@@ -268,6 +268,9 @@ const lang = {
         'option-promotion': 'Modernization of my site and promotion',
         'option-other': 'Other (write down your requests)',
         'contactForm-btn': 'Send message',
+        'form-success-title': 'Thank you',
+        'form-success-subtitle':
+            'Thank you for your application, our managers will contact you soon',
     },
     ru: {
         'nav_btn_messangers-mobile': 'Cвязаться с нами',
@@ -543,6 +546,9 @@ const lang = {
         'option-promotion': 'Модернизация моего сайта и продвижение',
         'option-other': 'Другое (запишите ваши пожелания)',
         'contactForm-btn': 'Отправить сообщение',
+        'form-success-title': 'Спасибо',
+        'form-success-subtitle':
+            'Спасибо за заявку, наши менеджеры свяжутся с вами в ближайшее время',
     },
     es: {
         'nav_btn_messangers-mobile': 'Contacta con nosotros',
@@ -817,6 +823,9 @@ const lang = {
         'option-promotion': 'Modernización de mi sitio y promoción.',
         'option-other': 'Otros (anote sus solicitudes)',
         'contactForm-btn': 'Enviar mensaje',
+        'form-success-title': 'Gracias',
+        'form-success-subtitle':
+            'Gracias por su solicitud, nuestros gerentes se comunicarán con usted pronto',
     },
     uk: {
         'nav_btn_messangers-mobile': "Зв'яжіться з нами",
@@ -1089,6 +1098,9 @@ const lang = {
         'option-promotion': 'Модернізація мого сайту та просування',
         'option-other': 'Інше (запишіть свої запити)',
         'contactForm-btn': 'Надіслати повідомлення',
+        'form-success-title': 'Дякую',
+        'form-success-subtitle':
+            "Дякуємо за заявку, наші менеджери зв'яжуться з Вами найближчим часом",
     },
 };
 
