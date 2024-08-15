@@ -62,7 +62,6 @@ document
             })
                 .then((response) => response.json())
                 .then((data) => {
-                    console.log(data);
                     resetForm();
                     this.style.display = 'none';
                     document.querySelector('.form-success').style.display =
