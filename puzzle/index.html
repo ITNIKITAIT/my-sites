@@ -15,9 +15,13 @@
             sizes="16x16"
             href="./icons/favicon_16x16.svg" />
         <link rel="stylesheet" href="https://use.typekit.net/wiq3rly.css" />
+
         <link
             href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
             rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="stylesheet" href="./css/lang.css" />
         <title id="title"></title>
@@ -1725,15 +1729,15 @@
                 </div>
             </section>
         </div>
-        <section class="benefits-mobile">
+        <section class="benefits-mobile swiper">
             <div class="subtitle" id="benefits-mobile_subtitle">
                 Our benefits
             </div>
             <h2 class="title" id="benefits-mobile_title">
                 Our client-centric approach ensures your vision thrives.
             </h2>
-            <div class="benefits-mobile-wrapper">
-                <div class="benefits-mobile_item">
+            <div class="benefits-mobile-wrapper swiper-wrapper">
+                <div class="benefits-mobile_item swiper-slide">
                     <div
                         class="benefits-mobile_title"
                         id="benefits_title_tailored_solutions-mobile">
@@ -1750,7 +1754,7 @@
                         success at every stage of your project's evolution.
                     </div>
                 </div>
-                <div class="benefits-mobile_item">
+                <div class="benefits-mobile_item swiper-slide">
                     <div
                         class="benefits-mobile_title"
                         id="benefits_title_expertise_across_disciplines-mobile">
@@ -1767,7 +1771,7 @@
                         your vision to life.
                     </div>
                 </div>
-                <div class="benefits-mobile_item">
+                <div class="benefits-mobile_item swiper-slide">
                     <div
                         class="benefits-mobile_title"
                         id="benefits_title_client_centric_approach-mobile">
@@ -1783,7 +1787,7 @@
                         satisfaction.
                     </div>
                 </div>
-                <div class="benefits-mobile_item">
+                <div class="benefits-mobile_item swiper-slide">
                     <div
                         class="benefits-mobile_title"
                         id="benefits_title_innovation_driven_results-mobile">
@@ -1801,12 +1805,7 @@
                 </div>
             </div>
             <div></div>
-            <div class="benefits-mobile-dots" id="benefits-mobile_dots">
-                <div class="benefits-mobile-dot" id="benefits_dot_1"></div>
-                <div class="benefits-mobile-dot" id="benefits_dot_2"></div>
-                <div class="benefits-mobile-dot" id="benefits_dot_3"></div>
-                <div class="benefits-mobile-dot" id="benefits_dot_4"></div>
-            </div>
+            <div class="benefits-mobile-dots" id="benefits-mobile_dots"></div>
             <img
                 class="benefits-mobile_circle"
                 src="./icons/puzzle.svg"
@@ -2205,6 +2204,7 @@
         <script src="./script.js"></script>
         <script src="./validation.js"></script>
 
+        <script type="module" src="./swiper.js"></script>
         <script type="module" src="./3d-puzzle.js"></script>
     </body>
 </html>

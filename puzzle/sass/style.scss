@@ -958,17 +958,22 @@ a {
 .benefits-mobile {
     padding: 100px 0 259px 120px;
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     &-wrapper {
-        height: 250px;
-        overflow: scroll;
+        // overflow: hidden;
+        // height: 250px;
+        // overflow: scroll;
         display: flex;
-        flex-direction: column;
-        gap: 120px;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 120px;
         margin-top: 102px;
-        &::-webkit-scrollbar {
-            display: none;
-        }
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
+    }
+    &_item {
+        padding: 0 50px;
     }
     &_title {
         font-size: 32px;
