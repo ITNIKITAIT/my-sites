@@ -1,3 +1,5 @@
+const FORM_URL = 'https://hooks.zapier.com/hooks/catch/19819704/26o1mfm/';
+
 function validateForm() {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
@@ -55,7 +57,7 @@ document
         const jsonData = JSON.stringify(Object.fromEntries(formData.entries()));
 
         if (validateForm()) {
-            fetch('https://hooks.zapier.com/hooks/catch/19798932/24nhg3w/', {
+            fetch(FORM_URL, {
                 method: 'POST',
 
                 body: jsonData,
