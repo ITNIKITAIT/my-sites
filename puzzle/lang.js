@@ -199,15 +199,6 @@ const lang = {
                         Telegram
                     </div>
                 </a>
-                <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item viber" id="messengers_item_viber">
-                    <div class="messengers_viber-shadow"></div>
-                    <div class="messengers_icon">
-                        <img src="./icons/viber.svg" alt="viber" />
-                    </div>
-                    <div id="contacts"></div>
-                    <div class="messengers_label" id="messengers_label_viber">Viber</div>
-                </a>
             </div>
         `,
         contacts_text: 'Contacts',
@@ -487,15 +478,6 @@ const lang = {
                         Telegram
                     </div>
                 </a>
-                <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item viber" id="messengers_item_viber">
-                    <div class="messengers_viber-shadow"></div>
-                    <div class="messengers_icon">
-                        <img src="./icons/viber.svg" alt="viber" />
-                    </div>
-                    <div id="contacts"></div>
-                    <div class="messengers_label" id="messengers_label_viber">Viber</div>
-                </a>
             </div>
         `,
         footer_menu_link_about: 'о нас',
@@ -752,15 +734,6 @@ const lang = {
                     <div class="messengers_label" id="messengers_label_telegram">
                         Telegram
                     </div>
-                </a>
-                <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item viber" id="messengers_item_viber">
-                    <div class="messengers_viber-shadow"></div>
-                    <div class="messengers_icon">
-                        <img src="./icons/viber.svg" alt="viber" />
-                    </div>
-                    <div id="contacts"></div>
-                    <div class="messengers_label" id="messengers_label_viber">Viber</div>
                 </a>
             </div>
         `,
@@ -1039,15 +1012,6 @@ const lang = {
                         Telegram
                     </div>
                 </a>
-                <img class="messengers_divider" src="./icons/messengers_divider.svg" alt="divider" />
-                <a class="messengers_item viber" id="messengers_item_viber">
-                    <div class="messengers_viber-shadow"></div>
-                    <div class="messengers_icon">
-                        <img src="./icons/viber.svg" alt="viber" />
-                    </div>
-                    <div id="contacts"></div>
-                    <div class="messengers_label" id="messengers_label_viber">Viber</div>
-                </a>
             </div>
         `,
         footer_menu_link_about: 'про нас',
@@ -1152,4 +1116,5 @@ document.addEventListener('DOMContentLoaded', function () {
             updateTextContent(lang);
         });
     });
+    updateTextContent('ru');
 });
