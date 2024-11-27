@@ -1779,6 +1779,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 24px;
         height: 100%;
     }
 
@@ -1886,9 +1887,55 @@ a {
         position: absolute;
         width: 100%;
         height: 100%;
-        top: 0;
+        bottom: 0;
         right: 0;
-        z-index: -1;
+        z-index: 2;
+    }
+    .work_bottom_4 {
+        max-width: 600px;
+        right: -50px;
+        bottom: -80px;
+    }
+    .work_top_4 {
+        max-width: 650px;
+        right: -150px;
+        top: -60px;
+    }
+    .work_bottom_5 {
+        right: 50px;
+        bottom: -100px;
+    }
+    .work_top_5 {
+        top: 0;
+        max-width: 520px;
+    }
+    .work_bottom_6 {
+        bottom: -350px;
+        max-width: 580px;
+        right: -10px;
+        z-index: 3;
+    }
+    .work_top_7 {
+        top: 30px;
+    }
+    .work_top_8 {
+        top: 0;
+    }
+    .work_bottom_8 {
+        max-width: 500px;
+        bottom: -300px;
+        right: 50px;
+        z-index: 3;
+    }
+    .work_bottom_9 {
+        max-width: 500px;
+        bottom: -220px;
+        right: 50px;
+        z-index: 3;
+    }
+    .work-top-9 {
+        max-width: 480px;
+        right: 20px;
     }
 }
 
