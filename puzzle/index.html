@@ -1460,7 +1460,15 @@
 
                                 <button
                                     id="view_figma5"
-                                    style="--color: #fff; --bg: #453d82"
+                                    style="
+                                        --color: #fff;
+                                        --bg: #453d82;
+                                        background: linear-gradient(
+                                            90deg,
+                                            #453d82 0%,
+                                            #1d117b 100%
+                                        );
+                                    "
                                     class="view-btn">
                                     View Figma
                                 </button>
@@ -1481,6 +1489,10 @@
                                 <img
                                     class="work-top work_top_5"
                                     src="./images/portfolio/5/example2.png"
+                                    alt="work" />
+                                <img
+                                    class="work_top_mobile_5"
+                                    src="./images/portfolio/5/example3.png"
                                     alt="work" />
                             </div>
                         </div>
@@ -1763,8 +1775,27 @@
                     </div>
                     <div class="portfolio-pagination"></div>
 
-                    <div class="portfolio-button-prev swiper-button-prev"></div>
-                    <div class="portfolio-button-next swiper-button-next"></div>
+                    <div class="portfolio-button-prev swiper-button-prev">
+                        <svg
+                            width="20"
+                            height="32"
+                            viewBox="0 0 20 32"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.9297 15.9994L0.554688 3.62436L4.08969 0.0893555L19.9997 15.9994L4.08969 31.9094L0.554688 28.3744L12.9297 15.9994Z" />
+                        </svg>
+                    </div>
+                    <div class="portfolio-button-next swiper-button-next">
+                        <svg
+                            width="20"
+                            height="32"
+                            viewBox="0 0 20 32"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.9297 15.9994L0.554688 3.62436L4.08969 0.0893555L19.9997 15.9994L4.08969 31.9094L0.554688 28.3744L12.9297 15.9994Z" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </section>

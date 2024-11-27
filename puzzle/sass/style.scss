@@ -1753,9 +1753,16 @@ a {
     }
     .swiper-button-next,
     .swiper-button-prev {
-        background-image: url(../images/arrow-next.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
+        svg {
+            fill: #898491;
+            transition: all 0.2s;
+        }
+        &:hover svg {
+            fill: #399df8;
+        }
+        &:active svg {
+            fill: #0775da;
+        }
     }
     .swiper-button-prev {
         transform: rotate(180deg);
@@ -1906,8 +1913,12 @@ a {
         bottom: -100px;
     }
     .work_top_5 {
+        display: block;
         top: 0;
         max-width: 520px;
+    }
+    .work_top_mobile_5 {
+        display: none;
     }
     .work_bottom_6 {
         bottom: -350px;

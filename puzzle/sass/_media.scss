@@ -896,6 +896,16 @@
         .swiper-button-prev {
             display: none;
         }
+        .work_top_5 {
+            display: none;
+        }
+        .work_top_mobile_5 {
+            display: block;
+            bottom: 0;
+            max-width: 70%;
+            width: 100%;
+            left: 0;
+        }
         .work_bottom_6 {
             bottom: 0;
             max-width: 80%;
@@ -1049,20 +1059,16 @@
             max-width: 90%;
             right: 0;
         }
-        .work_top_5 {
-            top: 150px;
-            max-width: 120%;
-            right: 30%;
-        }
+
         .work_bottom_6 {
-            top: 20px;
+            top: 0;
             max-width: 90%;
             left: 0;
             z-index: 4;
         }
         .work_top_6 {
             width: 100%;
-            bottom: 20px;
+            bottom: -10px;
             right: -20px;
         }
         .work_top_7 {
@@ -1088,6 +1094,13 @@
         }
         .work_bottom_9 {
             max-width: 90%;
+        }
+        .work_top_mobile_5 {
+            display: block;
+            bottom: 70px;
+            max-width: 70%;
+            width: 100%;
+            left: 0;
         }
     }
 }
