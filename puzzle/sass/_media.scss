@@ -263,6 +263,16 @@
     }
 
     .plans {
+        &_popular-text {
+            font-size: 13px;
+        }        
+        &_popular {
+            padding: 6px 12px;
+            img {
+                max-width: 20px;
+                height: auto;
+            }
+        }
         &_wrap {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -692,6 +702,10 @@
             flex-direction: column;
             gap: 16px;
             align-items: center;
+        }
+        &_menu {
+            justify-content: center;
+            gap: 16px;
         }
     }
 }
@@ -1132,6 +1146,13 @@
         }
         .work_bottom_5 {
             bottom: 200px;
+        }
+    }
+    .plans {
+        &_title-wrap {
+            flex-direction: column;
+            align-items: start;
+            margin-bottom: 10px;
         }
     }
 }

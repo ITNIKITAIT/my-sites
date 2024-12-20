@@ -1857,6 +1857,16 @@ a {
   .about-us_descr {
     margin-top: -30%;
   }
+  .plans_popular-text {
+    font-size: 13px;
+  }
+  .plans_popular {
+    padding: 6px 12px;
+  }
+  .plans_popular img {
+    max-width: 20px;
+    height: auto;
+  }
   .plans_wrap {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2224,6 +2234,10 @@ a {
     flex-direction: column;
     gap: 16px;
     align-items: center;
+  }
+  .footer_menu {
+    justify-content: center;
+    gap: 16px;
   }
 }
 @media (max-width: 500px) {
@@ -2633,5 +2647,10 @@ a {
   }
   .portfolio .work_bottom_5 {
     bottom: 200px;
+  }
+  .plans_title-wrap {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

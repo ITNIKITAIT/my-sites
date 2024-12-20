@@ -236,6 +236,7 @@ const lang = {
         footer_menu_link_services: 'Services',
         footer_menu_link_work: 'Our process',
         footer_menu_link_contacts: 'Contacts',
+        footer_menu_link_price: 'Price',
         footer_text_follow: 'Follow on social media',
         footer_text_copyright: '© Puzzledesire, 2024. All right reserved.',
         footer_menu_document_cookies: 'Cookies Settings',
@@ -556,6 +557,7 @@ const lang = {
         footer_menu_link_services: 'Услуги',
         footer_menu_link_work: 'Наш процесс',
         footer_menu_link_contacts: 'Контакты',
+        footer_menu_link_price: "Цена",
         footer_text_follow: 'Следите за нами в социальных сетях',
         footer_text_copyright: '© Puzzledesire, 2024. Все права защищены.',
         footer_menu_document_cookies: 'Настройки файлов cookie',
@@ -874,6 +876,7 @@ const lang = {
         footer_menu_link_services: 'Servicios',
         footer_menu_link_work: 'Nuestro proceso',
         footer_menu_link_contacts: 'Contactos',
+        footer_menu_link_price: "Precio",
         footer_text_follow: 'Síguenos en las redes sociales',
         footer_text_copyright:
             '© Puzzledesire, 2024. Todos los derechos reservados.',
@@ -1020,7 +1023,7 @@ const lang = {
         plans_subtitle: 'Наші плани',
         plans_title: 'Почнемо співпрацю!',
         plans_subtitle_puzzle_ua:
-            'Повнофункціональний сайт для підтримки бізнесу українських підприємців за кордоном. Для тих, хто відкрив або планує відкрити свій малий бізнес за кордоном.',
+            'Повнофункціональний сайт для підтримки бізнесу українських підприємців, для тих, хто відкрив або планує відкрити свій малий бізнес за кордоном.',
         plans_subtitle_puzzle_ua2:
             'Можлива розстрочка з першим внеском <span class="plans_info-bold">200 євро + ПДВ</span> та <span class="plans_info-bold">50 євро + ПДВ</span> щомісяця протягом півроку',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ ПДВ</span>",
@@ -1041,7 +1044,7 @@ const lang = {
             'Внесення змін до затвердженого технічного завдання (до 10 змін)',
         plans_text_8_puzzle_ua:
             'Внесення до 10 змін протягом місяця після запуску сайту',
-        plans_limited_text_puzzle_ua: 'Обмежений',
+        plans_limited_text_puzzle_ua: 'обмежена пропозиція',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Швидкий спосіб отримати повнофункціональний веб-сайт для старту вашого бізнесу.',
@@ -1192,6 +1195,7 @@ const lang = {
         footer_menu_link_services: 'Послуги',
         footer_menu_link_work: 'Наш процес',
         footer_menu_link_contacts: 'Контакти',
+        footer_menu_link_price: "Ціна",
         footer_text_follow: 'Слідкуйте за нами в соціальних мережах',
         footer_text_copyright: '© Puzzledesire, 2024. Усі права захищені.',
         footer_menu_document_cookies: 'Налаштування файлів cookie',
@@ -1321,5 +1325,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    updateTextContent('ru');
+    updateTextContent('uk');
 });
