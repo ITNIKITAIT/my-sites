@@ -965,7 +965,7 @@ const lang = {
         view_figma8: 'Ver Figma',
         view_figma9: 'Ver Figma',
     },
-    uk: {
+    ua: {
         'nav_btn_messangers-mobile': "Зв'яжіться з нами",
         'nav_link_services-mobile': 'Послуги',
         'nav_link_work-mobile': 'Наш процес',
@@ -1329,39 +1329,38 @@ function openlangdropdown(params) {
 
 openlangdropdown('none');
 
-document.addEventListener('DOMContentLoaded', function () {
-    var elements = document.querySelectorAll('.nav_language_pick');
-    elements.forEach(function (element) {
-        element.addEventListener('click', function () {
-            var lang = element.getAttribute('data-lang');
+document.addEventListener('DOMContentLoaded', () => {
+    const supportedLanguages = ['ru', 'ua', 'es', 'en'];
+    const defaultLanguage =
+        localStorage.getItem('lang') || getBrowserLanguage(supportedLanguages);
 
-            window.history.pushState({}, '', `/${lang}`);
+    const path = window.location.pathname.replace('/', '').toLowerCase();
 
-            updateTextContent(lang);
+    if (!supportedLanguages.includes(path)) {
+        const newUrl = `/${defaultLanguage}`;
+        window.history.replaceState({}, '', newUrl);
+        updateTextContent(defaultLanguage);
+    } else {
+        updateTextContent(path);
+    }
+
+    const elements = document.querySelectorAll('.nav_language_pick');
+    elements.forEach((element) => {
+        element.addEventListener('click', () => {
+            const lang = element.getAttribute('data-lang');
+            if (supportedLanguages.includes(lang)) {
+                window.history.pushState({}, '', `/${lang}`);
+                updateTextContent(lang);
+            }
         });
     });
-
-    const initialLanguage = getLanguageFromURL();
-    updateTextContent(initialLanguage);
 });
 
-function getLanguageFromURL() {
-    const path = window.location.pathname;
-    const lang = path.split('/')[1];
-    const supportedLanguages = ['ru', 'uk', 'es', 'en'];
+function getBrowserLanguage(supportedLanguages) {
+    const browserLang = navigator.language.slice(0, 2);
 
-    if (supportedLanguages.includes(lang)) {
-        return lang;
+    if (supportedLanguages.includes(browserLang)) {
+        return browserLang;
     }
-    return 'uk';
+    return 'en';
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    const initialLanguage = getLanguageFromURL();
-
-    if (window.location.pathname === '/') {
-        window.location.replace(`/${initialLanguage}`);
-    } else {
-        updateTextContent(initialLanguage);
-    }
-});
