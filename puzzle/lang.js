@@ -69,13 +69,13 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Optional installments with a first payment of <span class="plans_info-bold">200€ + VAT</span> and <span class="plans_info-bold">50€ + VAT</span> per month for half a year',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_ua: 'Get Started',
         plans_text_1_puzzle_ua:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
         plans_text_2_puzzle_ua: 'Maximum number of layers (depth) - 2',
-        plans_text_3_puzzle_ua:
-            'Original design (choose from three options)',
+        plans_text_3_puzzle_ua: 'Original design (choose from three options)',
         plans_text_4_puzzle_ua:
             'Standard content and texts in two languages (of your choice)',
         plans_text_5_puzzle_ua:
@@ -91,7 +91,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'A quick way to get a fully functional website to kickstart your business.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_start: 'Get Started',
         plans_text_1_puzzle_start:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to 2 screens)',
@@ -113,7 +114,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Additional advantages and functionality for your website - a significant plus for your business.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_plus: 'Get Started',
         plans_point_1_puzzle_plus:
             'Full-fledged one-page landing (a page that scrolls from top to bottom, equivalent to up to 4 screens)',
@@ -138,7 +140,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Advanced custom solutions and website functionality - the path to business growth.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ VAT</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ VAT</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ VAT</span>",
         plans_btn_puzzle_pro: 'Get Started',
         plans_text_1_puzzle_pro:
             'Full-fledged website with your approved structure (landing or classic)',
@@ -385,12 +388,12 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Рассрочка по желанию с первым взносом <span class="plans_info-bold">200€ + НДС</span> и <span class="plans_info-bold">50 € + НДС</span> в месяц в течение полугода',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_ua: 'Начать',
         plans_text_1_puzzle_ua:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
-        plans_text_2_puzzle_ua:
-            'Максимальное количество уровней (глубина) - 2',
+        plans_text_2_puzzle_ua: 'Максимальное количество уровней (глубина) - 2',
         plans_text_3_puzzle_ua:
             'Оригинальный дизайн (выберите из трех вариантов)',
         plans_text_4_puzzle_ua:
@@ -408,7 +411,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'Быстрый способ получить полностью функциональный веб-сайт для старта вашего бизнеса.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_start: 'Начать',
         plans_text_1_puzzle_start:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная 2 экранам)',
@@ -431,7 +435,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Дополнительные преимущества и функциональность для вашего веб-сайта - значительное улучшение для вашего бизнеса.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_plus: 'Начать',
         plans_point_1_puzzle_plus:
             'Полноценный одностраничный лендинг (страница, прокручивающаяся сверху вниз, эквивалентная до 4 экранов)',
@@ -457,7 +462,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Продвинутые индивидуальные решения и функциональность веб-сайта - путь к росту бизнеса.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ НДС</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ НДС</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ НДС</span>",
         plans_btn_puzzle_pro: 'Начать',
         plans_text_1_puzzle_pro:
             'Полноценный веб-сайт с вашей утвержденной структурой (лендинг или классический)',
@@ -557,7 +563,7 @@ const lang = {
         footer_menu_link_services: 'Услуги',
         footer_menu_link_work: 'Наш процесс',
         footer_menu_link_contacts: 'Контакты',
-        footer_menu_link_price: "Цена",
+        footer_menu_link_price: 'Цена',
         footer_text_follow: 'Следите за нами в социальных сетях',
         footer_text_copyright: '© Puzzledesire, 2024. Все права защищены.',
         footer_menu_document_cookies: 'Настройки файлов cookie',
@@ -707,13 +713,13 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Fraccionamiento opcional con un primer pago de <span class="plans_info-bold">200 euros + IVA</span> y <span class="plans_info-bold">50 euros + IVA</span> al mes durante medio año',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_ua: 'Empezar',
         plans_text_1_puzzle_ua:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
         plans_text_2_puzzle_ua: 'Número máximo de capas (profundidad) - 2',
-        plans_text_3_puzzle_ua:
-            'Diseño original (elige entre tres opciones)',
+        plans_text_3_puzzle_ua: 'Diseño original (elige entre tres opciones)',
         plans_text_4_puzzle_ua:
             'Contenido y textos estándar en dos idiomas (a tu elección)',
         plans_text_5_puzzle_ua:
@@ -729,7 +735,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'Una forma rápida de obtener un sitio web totalmente funcional para iniciar tu negocio.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_start: 'Empezar',
         plans_text_1_puzzle_start:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a 2 pantallas)',
@@ -751,7 +758,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Ventajas adicionales y funcionalidad para tu sitio web - un plus significativo para tu negocio.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_plus: 'Empezar',
         plans_point_1_puzzle_plus:
             'Landing page completa (una página que se desplaza de arriba a abajo, equivalente a hasta 4 pantallas)',
@@ -776,7 +784,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Soluciones personalizadas avanzadas y funcionalidad del sitio web - el camino hacia el crecimiento empresarial.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ IVA</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ IVA</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ IVA</span>",
         plans_btn_puzzle_pro: 'Empezar',
         plans_text_1_puzzle_pro:
             'Sitio web completo con tu estructura aprobada (landing o clásico)',
@@ -876,7 +885,7 @@ const lang = {
         footer_menu_link_services: 'Servicios',
         footer_menu_link_work: 'Nuestro proceso',
         footer_menu_link_contacts: 'Contactos',
-        footer_menu_link_price: "Precio",
+        footer_menu_link_price: 'Precio',
         footer_text_follow: 'Síguenos en las redes sociales',
         footer_text_copyright:
             '© Puzzledesire, 2024. Todos los derechos reservados.',
@@ -1027,7 +1036,8 @@ const lang = {
         plans_subtitle_puzzle_ua2:
             'Можлива розстрочка з першим внеском <span class="plans_info-bold">200 євро + ПДВ</span> та <span class="plans_info-bold">50 євро + ПДВ</span> щомісяця протягом півроку',
         plans_price_puzzle_ua: "500€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_ua_mobile: "500€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_ua_mobile:
+            "500€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_ua: 'Почати',
         plans_text_1_puzzle_ua:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
@@ -1049,7 +1059,8 @@ const lang = {
         plans_subtitle_puzzle_start:
             'Швидкий спосіб отримати повнофункціональний веб-сайт для старту вашого бізнесу.',
         plans_price_puzzle_start: "1000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_start_mobile: "1000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_start_mobile:
+            "1000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_start: 'Почати',
         plans_text_1_puzzle_start:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна 2 екранам)',
@@ -1071,7 +1082,8 @@ const lang = {
         plans_subtitle_puzzle_plus:
             'Додаткові переваги та функціональність для вашого веб-сайту - значне покращення для вашого бізнесу.',
         plans_price_puzzle_plus: "3000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_plus_mobile: "3000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_plus_mobile:
+            "3000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_plus: 'Почати',
         plans_point_1_puzzle_plus:
             'Повноцінний односторінковий лендинг (сторінка, що прокручується згорі донизу, еквівалентна до 4 екранів)',
@@ -1095,7 +1107,8 @@ const lang = {
         plans_subtitle_puzzle_pro:
             'Розширені індивідуальні рішення та функціональність веб-сайту - шлях до зростання бізнесу.',
         plans_price_puzzle_pro: "5000€ <span class='plans_vat'>+ ПДВ</span>",
-        plans_price_puzzle_pro_mobile: "5000€ <span class='plans_vat'>+ ПДВ</span>",
+        plans_price_puzzle_pro_mobile:
+            "5000€ <span class='plans_vat'>+ ПДВ</span>",
         plans_btn_puzzle_pro: 'Почати',
         plans_text_1_puzzle_pro:
             'Повноцінний веб-сайт зі затвердженою структурою (лендинг або класичний)',
@@ -1195,7 +1208,7 @@ const lang = {
         footer_menu_link_services: 'Послуги',
         footer_menu_link_work: 'Наш процес',
         footer_menu_link_contacts: 'Контакти',
-        footer_menu_link_price: "Ціна",
+        footer_menu_link_price: 'Ціна',
         footer_text_follow: 'Слідкуйте за нами в соціальних мережах',
         footer_text_copyright: '© Puzzledesire, 2024. Усі права захищені.',
         footer_menu_document_cookies: 'Налаштування файлів cookie',
@@ -1321,9 +1334,34 @@ document.addEventListener('DOMContentLoaded', function () {
     elements.forEach(function (element) {
         element.addEventListener('click', function () {
             var lang = element.getAttribute('data-lang');
+
+            window.history.pushState({}, '', `/${lang}`);
+
             updateTextContent(lang);
         });
     });
 
-    updateTextContent('uk');
+    const initialLanguage = getLanguageFromURL();
+    updateTextContent(initialLanguage);
+});
+
+function getLanguageFromURL() {
+    const path = window.location.pathname;
+    const lang = path.split('/')[1];
+    const supportedLanguages = ['ru', 'uk', 'es', 'en'];
+
+    if (supportedLanguages.includes(lang)) {
+        return lang;
+    }
+    return 'uk';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const initialLanguage = getLanguageFromURL();
+
+    if (window.location.pathname === '/') {
+        window.location.replace(`/${initialLanguage}`);
+    } else {
+        updateTextContent(initialLanguage);
+    }
 });
