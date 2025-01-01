@@ -245,26 +245,3 @@ document.getElementById('back-to-top').addEventListener('click', function () {
         behavior: 'smooth',
     });
 });
-
-// Initialize the intl-tel-input
-const phoneInputField = document.querySelector("#phone");
-const phoneInput = window.intlTelInput(phoneInputField, {
-    initialCountry: "auto",  // Detect the country automatically
-    geoIpLookup: function (callback) {
-        fetch('https://ipinfo.io/json')
-            .then(response => response.json())
-            .then(data => callback(data.country))
-            .catch(() => callback("us")); // Default to US if country can't be detected
-    },
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"  // Enable formatting and validation
-});
-// Example validation check on form submit
-const form = document.querySelector("#contactForm");
-form.addEventListener("submit", function (event) {
-    if (!phoneInput.isValidNumber()) {
-        event.preventDefault();
-        document.querySelector("#phoneError").innerHTML = "Invalid phone number.";
-    } else {
-        document.querySelector("#phoneError").innerHTML = "";
-    }
-});

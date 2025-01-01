@@ -86,7 +86,7 @@ const lang = {
             'Making changes to the approved Technical Assignment (TA) up to 10 changes',
         plans_text_8_puzzle_ua:
             'Making up to 10 changes within a month after the site launch',
-        plans_limited_text_puzzle_ua: 'Limited',
+        plans_limited_text_puzzle_ua: 'Limited edition',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'A quick way to get a fully functional website to kickstart your business.',
@@ -730,7 +730,7 @@ const lang = {
             'Realización de cambios en el encargo técnico aprobado (TA) hasta 10 cambios',
         plans_text_8_puzzle_ua:
             'Realización de hasta 10 cambios dentro de un mes después del lanzamiento del sitio',
-        plans_limited_text_puzzle_ua: 'Limitado',
+        plans_limited_text_puzzle_ua: 'Edición limitada',
         plans_title_puzzle_start: 'Puzzle-Start',
         plans_subtitle_puzzle_start:
             'Una forma rápida de obtener un sitio web totalmente funcional para iniciar tu negocio.',
