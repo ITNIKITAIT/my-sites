@@ -1330,7 +1330,7 @@ function openlangdropdown(params) {
 openlangdropdown('none');
 
 document.addEventListener('DOMContentLoaded', () => {
-    const supportedLanguages = ['ru', 'ua', 'es', 'en'];
+    const supportedLanguages = ['ua', 'es', 'en'];
     const defaultLanguage =
         localStorage.getItem('lang') || getBrowserLanguage(supportedLanguages);
 
