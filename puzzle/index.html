@@ -25,6 +25,9 @@
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+            <link
+            href="https://fonts.cdnfonts.com/css/liberation-sans"
+            rel="stylesheet" />
         <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="stylesheet" href="./css/lang.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
@@ -2933,7 +2936,7 @@
                             >Cookies Settings</a
                         >
                         <a
-                            href="#"
+                            href="/privacy"
                             class="footer_menu-document"
                             id="footer_menu_document_privacy"
                             >Privacy Policy</a
@@ -2956,8 +2959,26 @@
             </svg>
         </button>
 
+        <div id="cookieNotice" style="display: none;">
+            <div class="cookie">
+                <div class="cookie_wrapper">
+                        <p>We use cookies to provide you with the most up-to-date information.
+                            By continuing to use the site, you agree to the use of cookies<a href="/privacy">Privacy Policy</a></p>
+                            
+                        <div class="cookie-flex">
+                            <button class="cookie-decline" onclick="rejectCookieConsent();">Decline</button>       
+                            <button class="cookie-accept" onclick="acceptCookieConsent();">Accept</button>       
+                        </div>
+                            
+                </div>
+            </div>
+        </div>
+
+        <script src="./cookie.js"></script>
         <script src="./lang.js"></script>
+        <script src="./switch-lang.js"></script>
         <script src="./script.js"></script>
+        <script src="./scroll.js"></script>
         <script src="./validation.js"></script>
 
         <script type="module" src="./swiper.js"></script>
