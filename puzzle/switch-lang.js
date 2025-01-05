@@ -4,9 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.getItem('lang') || getBrowserLanguage(supportedLanguages);
 
     const path = window.location.pathname.replace('/', '').toLowerCase();
+    console.log('path = ' + path);
 
     if (!supportedLanguages.includes(path)) {
         const newUrl = `/${path + defaultLanguage}`;
+        console.log('newUrl = ' + newUrl);
         window.history.replaceState({}, '', newUrl);
         updateTextContent(defaultLanguage);
     } else {
