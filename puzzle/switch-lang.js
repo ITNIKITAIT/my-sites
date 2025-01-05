@@ -2,14 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const supportedLanguages = ['ua', 'es', 'en'];
     const defaultLanguage =
         localStorage.getItem('lang') || getBrowserLanguage(supportedLanguages);
+    const anchor = localStorage.getItem('anchor')
+        ? `#${localStorage.getItem('anchor')}`
+        : '';
 
-    const path = window.location.pathname.replace('/', '').toLowerCase();
-    console.log('path = ' + path);
+    const path = window.location.pathname;
 
     if (!supportedLanguages.includes(path)) {
-        const newUrl = `/${path + defaultLanguage}`;
-        console.log('newUrl = ' + newUrl);
+        const newUrl = `${path + defaultLanguage + anchor}`;
         window.history.replaceState({}, '', newUrl);
+        localStorage.removeItem('anchor');
         updateTextContent(defaultLanguage);
     } else {
         updateTextContent(path);
@@ -20,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         element.addEventListener('click', () => {
             const lang = element.getAttribute('data-lang');
             if (supportedLanguages.includes(lang)) {
-                window.location.replace(`/${path + lang}`);
+                window.location.replace(`${path + lang}`);
                 localStorage.setItem('lang', lang);
                 updateTextContent(lang);
             }

@@ -1,6 +1,5 @@
 if (window.matchMedia('(max-width: 768px)').matches) {
     const hamburger = document.querySelector('.hamburger');
-    console.log(hamburger);
     hamburger.addEventListener('click', () => {
         const sections = document.querySelectorAll('section');
         const body = document.querySelector('body');
@@ -246,3 +245,9 @@ document.getElementById('back-to-top').addEventListener('click', function () {
         behavior: 'smooth',
     });
 });
+
+function moveTo(path) {
+    const anchor = path.split('#')[1];
+    if (anchor) localStorage.setItem('anchor', anchor);
+    window.location.href = path;
+}

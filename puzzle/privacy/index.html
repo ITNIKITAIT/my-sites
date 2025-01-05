@@ -34,16 +34,32 @@
                 <div class="nav_subwrapper">
                     <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
                     <nav class="nav_menu">
-                        <a href="/" class="nav_services" id="nav_services"
+                        <a
+                            href="/#services"
+                            class="nav_services"
+                            id="nav_services"
+                            onclick="moveTo('/#services')"
                             >services</a
                         >
-                        <a href="/" class="nav_our-process" id="nav_our-process"
+                        <a
+                            href="/#work"
+                            onclick="moveTo('/#work')"
+                            class="nav_our-process"
+                            id="nav_our-process"
                             >our process</a
                         >
-                        <a href="/" class="nav_our-process" id="nav_price"
+                        <a
+                            href="/#price"
+                            onclick="moveTo('/#price')"
+                            class="nav_our-process"
+                            id="nav_price"
                             >price</a
                         >
-                        <a href="/" class="nav_contacts" id="nav_contacts"
+                        <a
+                            href="/#contacts-mobile"
+                            onclick="moveTo('/#contacts-mobile')"
+                            class="nav_contacts"
+                            id="nav_contacts"
                             >contacts</a
                         >
                     </nav>
@@ -76,9 +92,10 @@
                             <span class="hamburger-span"></span>
                         </div>
                         <a
-                            href="/"
+                            href="/#contacts-mobile"
                             class="nav-scrolled-btn"
                             id="nav-scrolled-btn"
+                            onclick="moveTo('/#contacts-mobile')"
                             >Contact us</a
                         >
                     </div>
@@ -86,46 +103,48 @@
                 <ul class="nav_list">
                     <li class="nav_item">
                         <a
-                            href="/"
+                            href="/#services-mobile"
                             class="nav_link"
                             id="nav_link_services-mobile"
-                            onclick="toggleMenu()"
+                            onclick="
+                                     moveTo('/#services-mobile')
+                                    "
                             >services</a
                         >
                     </li>
                     <li class="nav_item">
                         <a
-                            href="/"
+                            href="/#work-mobile"
                             class="nav_link"
                             id="nav_link_work-mobile"
-                            onclick="toggleMenu()"
+                            onclick="moveTo('/#work-mobile')"
                             >our process</a
                         >
                     </li>
                     <li class="nav_item">
                         <a
-                            href="/"
+                            href="/#price"
                             class="nav_link"
                             id="nav_link_price-mobile"
-                            onclick="toggleMenu()"
+                            onclick="moveTo('/#price')"
                             >price</a
                         >
                     </li>
                     <li class="nav_item">
                         <a
-                            href="/"
+                            href="/#contacts-mobile"
                             class="nav_link"
                             id="nav_link_contacts-mobile"
-                            onclick="toggleMenu()"
+                            onclick="moveTo('/#contacts-mobile')"
                             >contacts</a
                         >
                     </li>
                 </ul>
                 <a
-                    href="/"
+                    href="/#messangers-mobile"
                     class="nav_btn"
                     id="nav_btn_messangers-mobile"
-                    onclick="toggleMenu()"
+                    onclick="moveTo('/#messangers-mobile')"
                     >Contact us</a
                 >
             </div>
@@ -440,27 +459,31 @@
                             alt="logo" />
                         <div class="footer_menu">
                             <a
-                                href="/"
+                                href="/#services"
                                 class="footer_menu-link"
                                 id="footer_menu_link_services"
+                                onclick="moveTo('/#services')"
                                 >services</a
                             >
                             <a
-                                href="/"
+                                href="/#work"
                                 class="footer_menu-link"
                                 id="footer_menu_link_work"
+                                onclick="moveTo('/#work')"
                                 >our process</a
                             >
                             <a
-                                href="/"
+                                href="/#price"
                                 class="footer_menu-link"
                                 id="footer_menu_link_price"
+                                onclick="moveTo('/#price')"
                                 >price</a
                             >
                             <a
-                                href="/"
+                                href="/#contacts-mobile"
                                 class="footer_menu-link"
                                 id="footer_menu_link_contacts"
+                                onclick="moveTo('/#contacts-mobile')"
                                 >contacts</a
                             >
                         </div>
