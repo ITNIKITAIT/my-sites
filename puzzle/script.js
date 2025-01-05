@@ -251,3 +251,8 @@ function moveTo(path) {
     if (anchor) localStorage.setItem('anchor', anchor);
     window.location.href = path;
 }
+
+function acceptTerms() {
+    localStorage.setItem('terms', 'accepted');
+    window.location.href = '/';
+}

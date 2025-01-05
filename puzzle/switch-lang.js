@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
         ? `#${localStorage.getItem('anchor')}`
         : '';
 
-    const path = window.location.pathname;
+    let path = window.location.pathname;
+
+    if (path[path.length - 1] !== '/') path === `${path}/`;
 
     if (!supportedLanguages.includes(path)) {
         const newUrl = `${path + defaultLanguage + anchor}`;
