@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         : '';
 
     let path = window.location.pathname;
-    console.log('path = ' + path);
     if (path.slice(-1) !== '/') path = `${path}/`;
-    console.log(path);
 
     if (!supportedLanguages.includes(path)) {
         const newUrl = `${path + defaultLanguage + anchor}`;

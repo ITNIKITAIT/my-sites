@@ -236,6 +236,9 @@ a {
 .nav .hamburger {
   display: none;
 }
+.nav_logo {
+  cursor: pointer;
+}
 
 .header {
   background-color: none;
@@ -1269,6 +1272,7 @@ a {
 .footer_logo {
   width: 234.02px;
   height: 32.94px;
+  cursor: pointer;
 }
 .footer_menu {
   display: flex;

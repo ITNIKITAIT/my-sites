@@ -269,6 +269,9 @@ a {
     .hamburger {
         display: none;
     }
+    &_logo {
+        cursor: pointer;
+    }
 }
 
 .header {
@@ -1532,6 +1535,7 @@ a {
     &_logo {
         width: 234.02px;
         height: 32.94px;
+        cursor: pointer;
     }
     &_menu {
         display: flex;

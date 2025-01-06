@@ -32,7 +32,11 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav_subwrapper">
-                    <img class="nav_logo" src="./icons/logo.svg" alt="logo" />
+                    <img
+                        class="nav_logo"
+                        onclick="moveTo('/')"
+                        src="./icons/logo.svg"
+                        alt="logo" />
                     <nav class="nav_menu">
                         <a
                             href="/#services"
@@ -592,6 +596,7 @@
                     <div class="footer_nav">
                         <img
                             class="footer_logo"
+                            onclick="moveTo('/')"
                             src="../icons/logo_footer.svg"
                             alt="logo" />
                         <div class="footer_menu">
@@ -663,12 +668,6 @@
                         © Puzzledesire, 2024. All right reserved.
                     </div>
                     <div class="footer_documents">
-                        <a
-                            href="#"
-                            class="footer_menu-document"
-                            id="footer_menu_document_cookies"
-                            >Cookies Settings</a
-                        >
                         <a
                             href="/privacy"
                             class="footer_menu-document"

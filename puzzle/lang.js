@@ -241,7 +241,8 @@ const lang = {
         footer_menu_link_contacts: 'Contacts',
         footer_menu_link_price: 'Price',
         footer_text_follow: 'Follow on social media',
-        footer_text_copyright: '© Puzzledesire, 2024. All right reserved.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. All right reserved.',
         footer_menu_document_cookies: 'Cookies Settings',
         footer_menu_document_privacy: 'Privacy Policy',
         footer_menu_document_terms: 'Terms of Service',
@@ -391,7 +392,7 @@ const lang = {
         'privacy-rights-withdraw':
             '<span>Withdraw Consent:</span> Revoke your consent at any time for specific processing activities.',
         'privacy-gdpr-rights-note':
-            'To exercise these rights, please contact us at puzzledesirees@gmail.com.',
+            'To exercise these rights, please contact us at <span>puzzledesirees@gmail.com.</span>',
         'privacy-gdpr-rights-response':
             'We will respond within one month of receiving your request.',
         'privacy-cookies-title': '8. Cookies and Tracking',
@@ -792,7 +793,8 @@ made by PuzzleDesire, located at <span>www.puzzledesire.com</span> (hereinafter 
         footer_menu_link_contacts: 'Контакты',
         footer_menu_link_price: 'Цена',
         footer_text_follow: 'Следите за нами в социальных сетях',
-        footer_text_copyright: '© Puzzledesire, 2024. Все права защищены.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. Все права защищены.',
         footer_menu_document_cookies: 'Настройки файлов cookie',
         footer_menu_document_privacy: 'Политика конфиденциальности',
         footer_menu_document_terms: 'Условия обслуживания',
@@ -1115,7 +1117,7 @@ made by PuzzleDesire, located at <span>www.puzzledesire.com</span> (hereinafter 
         footer_menu_link_price: 'Precio',
         footer_text_follow: 'Síguenos en las redes sociales',
         footer_text_copyright:
-            '© Puzzledesire, 2024. Todos los derechos reservados.',
+            '&copy; Puzzledesire, 2024-2025. Todos los derechos reservados.',
         footer_menu_document_cookies: 'Configuración de cookies',
         footer_menu_document_privacy: 'Política de privacidad',
         footer_menu_document_terms: 'Términos de servicio',
@@ -1670,7 +1672,8 @@ a los usuarios (en adelante, el "Cliente"). Al aceptar este Acuerdo, el Cliente 
         footer_menu_link_contacts: 'Контакти',
         footer_menu_link_price: 'Ціна',
         footer_text_follow: 'Слідкуйте за нами в соціальних мережах',
-        footer_text_copyright: '© Puzzledesire, 2024. Усі права захищені.',
+        footer_text_copyright:
+            '&copy; Puzzledesire, 2024-2025. Усі права захищені.',
         footer_menu_document_cookies: 'Налаштування файлів cookie',
         footer_menu_document_privacy: 'Політика конфіденційності',
         footer_menu_document_terms: 'Умови обслуговування',
@@ -1812,6 +1815,18 @@ a los usuarios (en adelante, el "Cliente"). Al aceptar este Acuerdo, el Cliente 
             '<span>Виправлення:</span> Виправлення неточних або неповних даних.',
         'privacy-rights-erasure':
             '<span>Видалення:</span> Запит на видалення ваших даних («право на забуття»).',
+        'privacy-rights-restriction':
+            '<span>Обмеження:</span> Обмежте обробку ваших даних.',
+        'privacy-rights-portability':
+            '<span>Портативність:</span> Отримайте свої дані в портативному форматі.',
+        'privacy-rights-objection':
+            '<span>Заперечення:</span> Заперечувати проти обробки даних на основі законних інтересів або прямого маркетингу.',
+        'privacy-rights-withdraw':
+            '<span>Відкликати згоду:</span> Ви можете будь-коли відкликати свою згоду на конкретні дії з обробки.',
+        'privacy-gdpr-rights-note':
+            'Щоб скористатися цими правами, зв’яжіться з нами за адресою <span>puzzledesirees@gmail.com.</span>',
+        'privacy-gdpr-rights-response':
+            'Ми відповімо протягом одного місяця з моменту отримання вашого запиту.',
         'privacy-cookies-title': '8. Файли cookie та відстеження',
         'privacy-cookies-subtitle':
             'Наш вебсайт використовує файли cookie для:',
